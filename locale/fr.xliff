@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file original="" datatype="plaintext" xml:space="preserve" source-language="en" target-language="fr">
+		<header>
+			<tool tool-id="lokalise.com" tool-name="Lokalise"/>
+		</header>
+		<body>
+			<trans-unit id="03__tip:_you_can_group_styles_together_using_the_naming_convention_group/color._for_example:_fuschia/100">
+				<source>Tip: You can group styles together using the naming convention Group/Color. For example: Fuschia/100</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__header_2">
+				<source>Header 2</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__header_1">
+				<source>Header 1</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="01__don’t_reinvent_the_wheel_with_every_design._team_libraries_let_you_share_styles_and_components_across_files__with_everyone_on_your_team.">
+				<source>Don’t reinvent the wheel with every design. Team libraries let you share styles and components across files, with everyone on your team.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="09__default">
+				<source>Default</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="11__to_use_styles_and_components_from_team_libraries__click_on_in_the_assets_panel_in_any_of_your_files._toggle_on_the_ones_you_want_to_use_in_your_design.">
+				<source>To use styles and components from Team Libraries, click on         in the Assets panel in any of your files. Toggle on the ones you want to use in your design.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="03__to_create_new_styles__select_a_layer_and_fill_it_with_the_color_you_want_as_a_style._then_click_on_in_the_color_styles_menu.">
+				<source>To create new styles, select a layer and fill it with the color you want as a style. Then click on       in the color styles menu.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__link_text">
+				<source>Link text</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__start_here_↓">
+				<source>Start here
+↓</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__body_small">
+				<source>Body small</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__body">
+				<source>Body</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="05__edit_text_styles">
+				<source>Edit text styles</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="06__edit_us_to_be_your_team’s_text_styles_and_create_some_more_styles">
+				<source>Edit us to be your team’s text styles and create some more styles</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="03__create_color_styles">
+				<source>Create color styles</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="09__use_components">
+				<source>Use components</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="07__use_text_styles">
+				<source>Use text styles</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__button_text">
+				<source>Button text</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="04__color_me_with_a_style">
+				<source>Color me with a style</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="02__published_styles_are_shared_with_everyone_on_the_team—they_can_be_used_by_all_team_members_in_any_of_their_files._changing_these_styles_will_update_them_everywhere_they&apos;re_used._change_these_default_c">
+				<source>Published styles are shared with everyone on the team—they can be used by all team members in any of their files. Changing these styles will update them everywhere they're used.
+
+Change these default colors to your team’s colors by selecting a color layer and clicking on       in the Design panel to the right.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="09__drag_and_drop_components_onto_your_canvas_from_the_assets_panel._if_you’re_on_an_education__professional_or_organization_team,_you_can_publish_them_for_team_members_to_use_across_their_own_files.">
+				<source>Drag and drop components onto your canvas from the Assets panel. If you’re on an Education, Professional, or Organization  team, you can publish them for team members to use across their own files.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__button">
+				<source>Button</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="09__hover">
+				<source>Hover</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="10__to_share_the_new_styles_and_components_you_created_in_this_file_with_team_members__you_need_to_publish_this_file._click_on_in_the_assets_panel_to_the_top_left.">
+				<source>To share the new styles and components you created in this file with team members, you need to publish this file. Click on         in the Assets panel to the top left.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="08__make_us_into_components_to_show_hover_states_across_your_designs">
+				<source>Make us into components to show hover states across your designs</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="10__only_education__professional_or_organization_teams_can_publish_components.">
+				<source>Only Education, Professional, or Organization teams can publish components.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="05__we’re_published_already!_edit_us_to_be_your_team’s_text_styles">
+				<source>We’re published already!
+Edit us to be your team’s text styles</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="04__select_a_layer__then_click_on_next_to_the_fill_property_in_the_panel_to_the_right.">
+				<source>Select a layer, then click on       next to the Fill property in the panel to the right.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="08__create_components_out_of_commonly_used_objects_such_as_buttons_and_icons_to_reuse_them_across_your_designs._select_an_element_and_click_create_component_in_the_top_bar_or_the_right-click_menu.">
+				<source>Create components out of commonly used objects such as buttons and icons to reuse them across your designs.
+
+Select an element and click Create Component in the top bar or the right-click menu.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="04__use_color_styles">
+				<source>Use color styles</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="10__then__click_on_publish_next_to_the_current_file._you’ll_have_a_chance_to_review_your_components_styles,_and_to_add_a_description_for_your_updates.">
+				<source>Then, click on &lt;b&gt;Publish&lt;/b&gt; next to the current file. You’ll have a chance to review your components, styles, and to add a description for your updates. </source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="11__using_your_team_library">
+				<source>Using your Team Library</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="03__color_and_create_some_more_styles_out_of_us!">
+				<source>Color and create some more styles out of us!</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="07__give_me_a_text_style">
+				<source>Give me a text style</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="page_1__i’m_a_title">
+				<source>I’m a title</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="08__create_components">
+				<source>Create components</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="08__tip:_the_keyboard_shortcut_to_create_a_component_is_ctrl_alt_k_on_windows__or_⌘⌥k_on_a_mac.">
+				<source>Tip: The keyboard shortcut to create a component is Ctrl Alt K on Windows, or ⌘⌥K on a Mac.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="06__create_text_styles">
+				<source>Create text styles</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="05__just_like_published_color_styles__published_text_styles_are_shared_across_your_team._change_text_styles_by_selecting_a_text_layer_with_the_style_and_clicking_on_in_the_panel_to_the_right.">
+				<source>Just like published color styles, published text styles are shared across your team. Change text styles by selecting a text layer with the style and clicking on       in the panel to the right.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="01__build_your_own_team_library">
+				<source>Build your own team library</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="02__we’re_published_already!_edit_us_to_be_your_team’s_colors.">
+				<source>We’re published already!
+Edit us to be your team’s colors.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="10__publish_your_team_library">
+				<source>Publish your Team Library</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="09__drag_the_correct_cursor_component_over_these_buttons_to_show_default_and_hover_states">
+				<source>Drag the correct cursor component over these buttons to show default and hover states</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="06__to_create_new_text_styles__first_select_a_text_layer_and_format_it_with_the_type_you_want_as_a_style._then_click_on_in_the_text_styles_menu.">
+				<source>To create new text styles, first select a text layer and format it with the type you want as a style. Then, click on      in the text styles menu.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="07__select_a_text_layer_and_click_on_next_to_the_text_property_to_use_text_styles.">
+				<source>Select a text layer and click on      next to the Text property to use text styles.</source>
+				<target></target>
+			</trans-unit>
+			<trans-unit id="02__edit_team_color_styles">
+				<source>Edit team color styles</source>
+				<target></target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
