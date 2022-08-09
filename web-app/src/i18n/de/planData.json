@@ -1,0 +1,847 @@
+{
+  "missingTranslationFallback": {
+    "name": "Ihr Caya-Tarif",
+    "shortName": "Caya-Tarif",
+    "description": "Für Ihren Tarif haben wir noch keine Beschreibung hinterlegt. ",
+    "extra": "Hier wird demnächst die Laufzeit Ihres Vertrags angezeigt.",
+    "pricePostfix": "/ Monat"
+  },
+  "freeplan": {
+    "shortName": "Inaktiv",
+    "name": "Aktivieren Sie Ihr Konto",
+    "description": "Buchen Sie jetzt einen Tarif und einen Nachsendeauftrag damit wir Ihre Post für Sie scannen und Sie diese zukünftig immer digital mit Caya empfangen.",
+    "extra": "",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält keine Scans.",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Wir nehmen Ihre Post in unserem Scancenter nicht an",
+      "information": "Sie haben kein Scanvolumen gebucht. Unser Scancenter wird keine Briefe für Sie annehmen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-month-201902": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 3,99 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-year-201902": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 2,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-month-201901": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 12,99 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-year-201901": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 9,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-month-201901": {
+    "shortName": "Family",
+    "name": "Privatkundentarif \"Family\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 24,99 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-year-201901": {
+    "shortName": "Family",
+    "name": "Privatkundentarif \"Family\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 19,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-business-month": {
+    "shortName": "Business",
+    "name": "Geschäftskundentarif \"Business\", Monatsabonnement",
+    "description": "Scans für 25 Briefe/Monat inklusive (zusätzliche Scans 0,80 €/Brief), kostenlose quartalsweise Anforderung von Originalen – für 24 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-business-year": {
+    "shortName": "Business",
+    "name": "Geschäftskundentarif \"Business\", Jahresabonnement",
+    "description": "Scans für 25 Briefe/Monat inklusive (zusätzliche Scans 0,80 €/Brief), kostenlose quartalsweise Anforderung von Originalen – für 19 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businessplus-month": {
+    "shortName": "Business+",
+    "name": "Geschäftskundentarif \"Business+\", Monatsabonnement",
+    "description": "Scans für 100 Briefe/Monat inklusive (zusätzliche Scans 0,70 €/Brief), kostenlose quartalsweise Anforderung von Originalen – für 89 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businessplus-year": {
+    "shortName": "Business+",
+    "name": "Geschäftskundentarif \"Business+\", Jahresabonnement",
+    "description": "Scans für 100 Briefe/Monat inklusive (zusätzliche Scans 0,79 €/Brief), kostenlose quartalsweise Anforderung von Originalen – für 79 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprise-month": {
+    "shortName": "Enterprise",
+    "name": "Geschäftskundentarif \"Enterprise\", Monatsabonnement",
+    "description": "Individuell verhandelte Leistungen",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprise-year": {
+    "shortName": "Enterprise",
+    "name": "Geschäftskundentarif \"Enterprise\", Jahresabonnement",
+    "description": "Individuell verhandelte Leistungen",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-month": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Monatsabonnement",
+    "description": "Scannen von bis zu 10 Briefen/Monat (zusätzliche Scans 0,80 €/Brief) für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 5,99 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-year": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Jahresabonnement",
+    "description": "Scannen von bis zu 10 Briefen/Monat (zusätzliche Scans 0,80 €/Brief) für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 4,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-coworker-month": {
+    "shortName": "Coworker",
+    "name": "Geschäftskundentarif \"Coworker\", Monatsabonnement",
+    "description": "Scans für 30 Briefe/Monat für 1 Empfänger inklusive (zusätzliche Scans 0,80 €/Brief), kostenlose quartalsweise Anforderung von Originalen – für 24,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-coworker-year": {
+    "shortName": "Coworker",
+    "name": "Geschäftskundentarif \"Coworker\", Jahresabonnement",
+    "description": "Scans für 30 Briefe/Monat für 1 Empfänger inklusive (zusätzliche Scans 0,80 €/Brief), kostenlose quartalsweise Anforderung von Originalen – für 19,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-month": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 12 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-year": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 9 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-month": {
+    "shortName": "Family",
+    "name": "Privatkundentarif \"Family\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 24 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-year": {
+    "shortName": "Family",
+    "name": "Privatkundentarif \"Family\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 19 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "unlimitedmonth": {
+    "shortName": "Unlimited",
+    "name": "Tarif \"Unlimited\", Monatsabonnement",
+    "description": "Individuell verhandelte Leistungen",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "unlimitedyear": {
+    "shortName": "Unlimited",
+    "name": "Tarif \"Unlimited\", Jahresabonnement",
+    "description": "Individuell verhandelte Leistungen",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "premiummonth": {
+    "shortName": "Premium",
+    "name": "Tarif \"Premium\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose monatliche Anforderung von Originalen, 1. Nachsendeauftrag (6 Monate) inklusive – für 30 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "premiumyear": {
+    "shortName": "Premium",
+    "name": "Tarif \"Premium\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose monatliche Anforderung von Originalen, 1. Nachsendeauftrag (12 Monate) inklusive – für 25 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "litemonth": {
+    "shortName": "Lite",
+    "name": "Tarif \"Lite\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose monatliche Anforderung von Originalen – für 12 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "liteyear": {
+    "shortName": "Lite",
+    "name": "Tarif \"Lite\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose monatliche Anforderung von Originalen – für 9 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-business-month-201904": {
+    "shortName": "Business",
+    "name": "Geschäftskundentarif \"Business\", Monatsabonnement",
+    "description": "Scans für 15 Briefe/Monat inklusive (zusätzliche Scans 0,80 €/Brief), keine kostenlose Anforderung von Originalen – für 14,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-business-year-201904": {
+    "shortName": "Business",
+    "name": "Geschäftskundentarif \"Business\", Jahresabonnement",
+    "description": "Scans für 15 Briefe/Monat inklusive (zusätzliche Scans 0,80 €/Brief), keine kostenlose Anforderung von Originalen – für 9,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businessplus-month-201904": {
+    "shortName": "Business+",
+    "name": "Geschäftskundentarif \"Business+\", Monatsabonnement",
+    "description": "Scans für 75 Briefe/Monat inklusive (zusätzliche Scans 0,75 €/Brief), kostenlose monatliche Anforderung von Originalen – für 59,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businessplus-year-201904": {
+    "shortName": "Business+",
+    "name": "Geschäftskundentarif \"Business+\", Jahresabonnement",
+    "description": "Scans für 75 Briefe/Monat inklusive (zusätzliche Scans 0,75 €/Brief), kostenlose monatliche Anforderung von Originalen – für 49,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprise-month-201904": {
+    "shortName": "Enterprise",
+    "name": "Geschäftskundentarif \"Enterprise\", Monatsabonnement",
+    "description": "Scans für 150 Briefe/Monat inklusive (zusätzliche Scans 0,70 €/Brief), kostenlose monatliche Anforderung von Originalen – für 119,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprise-year-201904": {
+    "shortName": "Enterprise",
+    "name": "Geschäftskundentarif \"Enterprise\", Jahresabonnement",
+    "description": "Scans für 150 Briefe/Monat inklusive (zusätzliche Scans 0,70 €/Brief), kostenlose monatliche Anforderung von Originalen – für 99,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprisespecial-year": {
+    "shortName": "Enterprise Special",
+    "name": "Geschäftskundentarif \"Enterprise Special\", Jahresabonnement",
+    "description": "Scans für 250 Briefe/Monat inklusive (zusätzliche Scans 0,70 €/Brief), kostenlose monatliche Anforderung von Originalen – für 149 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprisespecial-month": {
+    "shortName": "Enterprise Special",
+    "name": "Geschäftskundentarif \"Enterprise Special\", Monatsabonnement",
+    "description": "Scans für 250 Briefe/Monat inklusive (zusätzliche Scans 0,70 €/Brief), kostenlose monatliche Anforderung von Originalen – für 99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-month-201908": {
+    "shortName": "Family",
+    "name": "Privatkundentarif \"Family\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 24,99 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-year-201908": {
+    "shortName": "Family",
+    "name": "Privatkundentarif \"Family\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für bis zu 5 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 19,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-month-201908": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 3,99 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-year-201908": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 2,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-month-201908": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 12,99 €/Monat.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-year-201908": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 9,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-month-201912": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 14,99 €/Monat. ",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-month-201912": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen - 4,99€/Monat",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-year-201912": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 3,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-go-month": {
+    "shortName": "Go",
+    "name": "Geschäftskundentarif \"Go\", Monatsabonnement",
+    "description": "Scans für 5 Briefe/Monat inklusive (zusätzliche Scans 0,99 €/Brief), Support via E-Mail & Help Center – für 6,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-go-year": {
+    "shortName": "Go",
+    "name": "Geschäftskundentarif \"Go\", Jahresabonnement",
+    "description": "Scans für 5 Briefe/Monat inklusive (zusätzliche Scans 0,99 €/Brief), Support via E-Mail & Help Center – für 5,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-business-month-202003": {
+    "shortName": "Business",
+    "name": "Geschäftskundentarif \"Business\", Monatsabonnement",
+    "description": "Scans für 25 Briefe/Monat inklusive (zusätzliche Scans 0,79 €/Brief), Support via E-Mail & Help Center – für 24,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-business-year-202003": {
+    "shortName": "Business",
+    "name": "Geschäftskundentarif \"Business\", Jahresabonnement",
+    "description": "Scans für 25 Briefe/Monat inklusive (zusätzliche Scans 0,79 €/Brief), Support via E-Mail & Help Center – für 19,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businessplus-month-202003": {
+    "shortName": "Business+",
+    "name": "Geschäftskundentarif \"Business+\", Monatsabonnement",
+    "description": "Scans für 75 Briefe/Monat inklusive (zusätzliche Scans 0,79 €/Brief), kostenlose monatliche Anforderung von Originalen – für 59,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businessplus-year-202003": {
+    "shortName": "Business+",
+    "name": "Geschäftskundentarif \"Business+\", Jahresabonnement",
+    "description": "Scans für 75 Briefe/Monat inklusive (zusätzliche Scans 0,79 €/Brief), kostenlose monatliche Anforderung von Originalen – für 49,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businesspro-month": {
+    "shortName": "Business Pro",
+    "name": "Geschäftskundentarif \"Business Pro\", Monatsabonnement",
+    "description": "Scans für 150 Briefe/Monat inklusive (zusätzliche Scans 0,69 €/Brief), kostenlose monatliche Anforderung von Originalen – für 114,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-businesspro-year": {
+    "shortName": "Business Pro",
+    "name": "Geschäftskundentarif \"Business Pro\", Jahresabonnement",
+    "description": "Scans für 150 Briefe/Monat inklusive (zusätzliche Scans 0,69 €/Brief), kostenlose monatliche Anforderung von Originalen – für 99,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprise-month-202003": {
+    "shortName": "Enterprise",
+    "name": "Geschäftskundentarif \"Enterprise\", Monatsabonnement",
+    "description": "Scans für 300 Briefe/Monat inklusive (zusätzliche Scans 0,69 €/Brief), kostenlose monatliche Anforderung von Originalen – für 229,99 €/Monat. Preise zzgl. MwSt",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprise-year-202003": {
+    "shortName": "Enterprise",
+    "name": "Geschäftskundentarif \"Enterprise\", Jahresabonnement",
+    "description": "Scans für 300 Briefe/Monat inklusive (zusätzliche Scans 0,69 €/Brief), kostenlose monatliche Anforderung von Originalen – für 199,99 €/Monat. Preise zzgl. MwSt.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-year-202102": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen – für 5,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-month-202102": {
+    "shortName": "Minimalist",
+    "name": "Privatkundentarif \"Minimalist\", Monatsabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, keine kostenlose Anforderung von Originalen - 6,99€/Monat",
+    "extra": "Monatsvertrag. Wird 14 Tage vor Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-year-202102": {
+    "shortName": "Single",
+    "name": "Privatkundentarif \"Single\", Jahresabonnement",
+    "description": "Post-Scan-Flatrate mit Fair-Use-Policy für 1 Empfänger, kostenlose quartalsweise Anforderung von Originalen – für 12,99 €/Monat.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-free-202106": {
+    "shortName": "Free",
+    "name": "Free",
+    "description": "Ihre Softwarenutzung im kostenfreien Plan ist begrenzt auf 1 Nutzer. Um zusätzliche Nutzer oder Scanvolumen hinzuzufügen bitte hier \"Abo verwalten\" klicken und unter \"Abonnement bearbeiten\" Ihren Vertrag upgraden",
+    "extra": "Hier verwalten Sie Ihre Abos und Ihre Zahlungsmethode",
+    "scans": {
+      "scans": "Scans",
+      "available": "Sie haben ein Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Auch wenn Sie kein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Wir empfehlen Ihnen dringend ein Scanvolumen zu buchen, denn einzeln abgerechnete Scans werden schnell sehr teuer.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat pro Nutzer"
+  },
+  "business-essential-month-202106": {
+    "shortName": "Essentials",
+    "name": "Essentials",
+    "description": "Im Essentials Plan können bis zu 3 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich. Sollten Sie mehr als 3 Nutzer wünschen, müssen Sie Ihren Plan upgraden.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat pro Nutzer"
+  },
+  "business-essential-year-202106": {
+    "shortName": "Essentials",
+    "name": "Essentials",
+    "description": "Im Essentials Plan können bis zu 3 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich. Sollten Sie mehr als 3 Nutzer wünschen, müssen Sie Ihren Plan upgraden.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat pro Nutzer"
+  },
+  "business-standard-month-202106": {
+    "shortName": "Standard",
+    "name": "Standard",
+    "description": "Im Standard Plan können bis zu 10 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich. Sollten Sie mehr als 10 Nutzer wünschen, müssen Sie Ihren Plan upgraden.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat pro Nutzer"
+  },
+  "business-standard-year-202106": {
+    "shortName": "Standard",
+    "name": "Standard",
+    "description": "Im Standard Plan können bis zu 10 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich. Sollten Sie mehr als 10 Nutzer wünschen, müssen Sie Ihren Plan upgraden.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat pro Nutzer"
+  },
+  "business-premium-month-202106": {
+    "shortName": "PREMIUM",
+    "name": "PREMIUM",
+    "description": "Im PREMIUM Plan können bis zu 100 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich. Sollten Sie mehr Nutzer wünschen, müssen Sie Ihren Plan upgraden.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-premium-year-202106": {
+    "shortName": "PREMIUM",
+    "name": "PREMIUM",
+    "description": "Im PREMIUM Plan können bis zu 100 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich. Sollten Sie mehr Nutzer wünschen, müssen Sie Ihren Plan upgraden.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "pricePostfix": "/ Monat"
+  },
+  "business-professional-month-202106": {
+    "shortName": "Professional",
+    "name": "Professional",
+    "description": "Im Professional Plan können bis zu 100 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat pro Nutzer"
+  },
+  "business-professional-year-202106": {
+    "shortName": "Professional",
+    "name": "Professional",
+    "description": "Im Professional Plan können bis zu 100 Nutzer zusammenarbeiten. Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat pro Nutzer"
+  },
+  "private-minimalist-month-202106": {
+    "shortName": "Minimalist",
+    "name": "Minimalist",
+    "description": "Minimalist Plan enthält 1 Nutzer und 20 Scans, sowie das schiere 90 Tage Archiv. Weitere Scans deckt unsere Fair Use Policy ab. Weitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,00€ (Fair use policy)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, werden wir Sie kontaktieren um Ihren Plan upzugraden.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-minimalist-year-202106": {
+    "shortName": "Minimalist",
+    "name": "Minimalist",
+    "description": "Minimalist Plan enthält 1 Nutzer und 20 Scans, sowie das sichere 90 Tage Archiv. Weitere Scans deckt unsere Fair Use Policy ab. Weitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,00€ (Fair use policy)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, werden wir Sie kontaktieren um Ihren Plan upzugraden.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-month-202106": {
+    "shortName": "Single",
+    "name": "Single",
+    "description": "Single Plan enthält 1 Nutzer und 30 Scans sowie eine regelmäßige Sammelsendung. Weitere Scans deckt unsere Fair Use Policy ab. Weitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,00€ (Fair use policy)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, werden wir Sie kontaktieren um Ihren Plan upzugraden.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-year-202106": {
+    "shortName": "Single",
+    "name": "Single",
+    "description": "Single Plan enthält 1 Nutzer und 30 Scans sowie eine regelmäßige Sammelsendung. Weitere Scans deckt unsere Fair Use Policy ab. Weitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,00€ (Fair use policy)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, werden wir Sie kontaktieren um Ihren Plan upzugraden.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-month-202106": {
+    "shortName": "Family",
+    "name": "Family",
+    "description": "Family Plan enthält 5 Nutzer und 50 Scans sowie eine regelmäßige Sammelsendung. Weitere Scans deckt unsere Fair Use Policy ab. Weitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,00€ (Fair use policy)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-year-202106": {
+    "shortName": "Family",
+    "name": "Family",
+    "description": "Family Plan enthält 5 Nutzer und 50 Scans sowie eine regelmäßige Sammelsendung. Weitere Scans deckt unsere Fair Use Policy ab. Weitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: 0,00€ (Fair use policy)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "business-enterprise-custom-month-202111": {
+    "shortName": "N26",
+    "name": "N26 Spezial Plan",
+    "description": "\"N26 Spezial Plan\" Details im Vertrag",
+    "extra": "Jahresvertrag",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält keine ({{amount}}) Scans, da er variable über den Vertrag abgerechnet wird",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Spezialvertrag",
+      "information": "Wir scannen immer alle Briefe die für Sie ankommen",
+      "bookScans": "Scans variabel",
+      "bookMoreScans": "Scankontingent variabel"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-month-202202": {
+    "shortName": "Single",
+    "name": "Single",
+    "description": "Single Plan enthält 1 Empfänger/Nutzer und 10 Scans. Weitere Scans kosten extra. \nWeitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Tarif enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: 0,99€ ",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Upgrade",
+      "bookMoreScans": "Mehr Scans werden Ihnen in Rechnung gestellt"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-single-year-202202": {
+    "shortName": "Single",
+    "name": "Single",
+    "description": "Single Plan enthält 1 Empfänger/Nutzer und 10 Scans. Weitere Scans kosten extra. \nWeitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: 0,99€",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Upgrade",
+      "bookMoreScans": "Mehr Scans werden Ihnen in Rechnung gestellt"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-couple-month-202202": {
+    "shortName": "Couple",
+    "name": "Couple",
+    "description": "Couple Plan enthält 2 Empfänger/Nutzer und 20 Scans. Weitere Scans kosten extra. \nWeitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: 0,99€",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Upgrade",
+      "bookMoreScans": "Mehr Scans werden Ihnen in Rechnung gestellt"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-couple-year-202202": {
+    "shortName": "Couple",
+    "name": "Couple",
+    "description": "Couple Plan enthält 2 Empfänger/Nutzer und 20 Scans. Weitere Scans kosten extra. \nWeitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: 0,99€",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Upgrade",
+      "bookMoreScans": "Mehr Scans werden Ihnen in Rechnung gestellt"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-month-202202": {
+    "shortName": "Family",
+    "name": "Family",
+    "description": "Family Plan enthält 5 Empfänger/Nutzer und 30 Scans. Weitere Scans kosten extra. \nWeitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: 0,99€",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans werden Ihnen in Rechnung gestellt"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "private-family-year-202202": {
+    "shortName": "Family",
+    "name": "Family",
+    "description": "Family Plan enthält 5 Empfänger/Nutzer und 30 Scans. Weitere Scans kosten extra. \nWeitere Nutzer fügen Sie unter \"Team\" hinzu. Jeder Nutzer kostet zusätzlich monatlich.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Ihr Plan enthält {{amount}} Scans",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: 0,99€",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans werden Ihnen abgerechnet"
+    },
+    "pricePostfix": "/ Monat"
+  },
+  "business-essential-month-202207": {
+    "shortName": "Essentials",
+    "name": "Essential",
+    "description": "Kleinstunternehmer die unsere Document Cloud nur als Ablagelösung und den tollen PDF Editor nutzen möchten",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "monatlich"
+  },
+  "business-essential-year-202207": {
+    "shortName": "Essentials",
+    "name": "Essential",
+    "description": "Kleinstunternehmer die unsere Document Cloud nur als Ablagelösung und den tollen PDF Editor nutzen möchten",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "monatlich"
+  },
+  "business-standard-month-202207": {
+    "shortName": "Standard",
+    "name": "Standard",
+    "description": "Unternehmen die unsere Document Cloud im Team zur Kollaboration nutzen und Dokumenten Workflows automatisieren möchten.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "monatlich"
+  },
+  "business-standard-year-202207": {
+    "shortName": "Standard",
+    "name": "Standard",
+    "description": "Unternehmen die unsere Document Cloud im Team zur Kollaboration nutzen und Dokumenten Workflows automatisieren möchten.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "monatlich"
+  },
+  "business-professional-month-202207": {
+    "shortName": "Professional",
+    "name": "Professional",
+    "description": "Dokumenten basierte Workflow Automatisierungen. Kollaborativ im Team. Mit Schnittstellen zu den gängigsten Tools. Höchste Standards & mit individuellem AVV.",
+    "extra": "Monatsvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "monatlich"
+  },
+  "business-professional-year-202207": {
+    "shortName": "Professional",
+    "name": "Professional",
+    "description": "Dokumenten basierte Workflow Automatisierungen. Kollaborativ im Team. Mit Schnittstellen zu den gängigsten Tools. Höchste Standards & mit individuellem AVV.",
+    "extra": "Jahresvertrag. Wird 14 Tage vor dem Laufzeitende verlängert.",
+    "scans": {
+      "scans": "Scans",
+      "available": "Volumen von {{amount}} Scans gebucht",
+      "pricePostfix": "/ Monat",
+      "priceInformation": "Jeder weitere Scan: +0,99€ (Abrechnung zum Monatsende)",
+      "information": "Wenn Sie ein Post-Scanvolumen mit uns gebucht haben, werden wir jeden Brief der für Sie bei uns ankommt immer Scannen. Wir hören nicht nach dem gebuchten Limit auf. So stellen wir sicher, daß Sie immer jeden Ihrer Briefe erhalten. Sollten Sie Ihr Limit kontinuierlich überschreiten, empfehlen wir Ihnen Ihr Scanvolumen zu erhöhen.",
+      "bookScans": "Scans buchen",
+      "bookMoreScans": "Mehr Scans buchen"
+    },
+    "pricePostfix": "monatlich"
+  }
+}

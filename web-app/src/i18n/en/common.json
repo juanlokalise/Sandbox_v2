@@ -1,0 +1,44 @@
+{
+  "cancel": "Cancel",
+  "submit": "Save",
+  "validation": {
+    "mandatoryField": "Mandatory field",
+    "required": "Mandatory field",
+    "fieldMinSize": "{{fieldName}} must be at least {{size}} characters long.",
+    "thePassword": "The password",
+    "invalidEmail": "Not a valid email address",
+    "onlyLetters": "Only characters allowed",
+    "invalidPhoneNumber": "Invalid phone number",
+    "fieldMaxSize": "{{fieldName}} can't contain more than {{size}} characters.",
+    "beginEndWhiteSpace": "No spaces allowed at beginning or end",
+    "passwordRequirements": "min. 8 characters (with min. 1x uppercase letter & min. one number)"
+  },
+  "addressForm": {
+    "name": "First & Last or Company Name",
+    "line1": "Street and House Number",
+    "zip": "Postcode",
+    "city": "City",
+    "country": "Country",
+    "companyName": "Company Name"
+  },
+  "errors": {
+    "failedCreateSource": "We couldn't set up the Mail Forwarding. Please check the data you supplied and try again."
+  },
+  "pay": "Pay now",
+  "change": "Change",
+  "confirm": "Confirm",
+  "copy": "Copy",
+  "copied": "Document id copied!",
+  "hide": "Hide",
+  "languages": {
+    "de_DE": {
+      "short": "DE",
+      "long": "German"
+    },
+    "en_GB": {
+      "short": "EN",
+      "long": "English"
+    }
+  },
+  "continue": "Continue"
+}

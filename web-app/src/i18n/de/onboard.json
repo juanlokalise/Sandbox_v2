@@ -1,0 +1,78 @@
+{
+  "common": {
+    "steps": {
+      "register": "Registrierung",
+      "choosePlan": "Tarif & Bezahlung",
+      "setupForwarding": "Nachsendeauftrag"
+    },
+    "nextStep": "Als nächstes:",
+    "createAccount": "Konto anlegen",
+    "next": "Weiter",
+    "skip": "Überspringen"
+  },
+  "registered": {
+    "header": "Herzlich willkommen!",
+    "description": "Der erste Schritt ist getan. Wir danken für Ihr Vertrauen.",
+    "nextWithPlan": "Bezahlung einrichten",
+    "nextNoPlan": "Tarif & Bezahlung einrichten"
+  },
+  "createdMailSource": {
+    "header": "Alles erledigt!",
+    "description": "Wir richten nun Ihren Nachsendeauftrag ein. Sie erhalten dazu in Kürze eine E-Mail von uns und eine postalische Bestätigung der Deutschen Post. Anschließend dauert es erfahrungsgemäß fünf bis zehn Werktage, bis Ihre Briefe bei uns ankommen. Alle Briefe die ankommen, laden wir am selben Tag in Ihr CAYA Postfach und sagen Ihnen per E-Mail Bescheid.",
+    "nextMobile": "Um mit CAYA Ihre Post mobil einsehen zu können, laden Sie sich jetzt einfach unsere App herunter.",
+    "next": "Heute schon neugierig? Werfen Sie einen Blick in Ihr ",
+    "ios": "iOS App",
+    "android": "Android App",
+    "mailbox": "CAYA-Postfach",
+    "or": "oder",
+    "sources": "Weiteren Nachsendeauftrag anlegen"
+  },
+  "createMailSource": {
+    "header": "Ihr Nachsendeauftrag",
+    "descriptionMobile": "Um Ihre Post so bequem wie möglich digital zu empfangen, empfehlen wir Ihnen die Einrichtung eines Nachsendeauftrags mit der Deutschen Post AG. Den Nachsendeauftrag für 12 Monate, sowie dessen jährliche Verlängerung beauftragen Sie hier. Wir bearbeiten diesen Auftrag für Sie zum Selbstkostenpreis der Deutschen Post AG.",
+    "addFreeSource": "Jetzt kostenfrei einrichten",
+    "addSource": "Für {{value}} € pro Jahr buchen",
+    "descriptionInput": "Beschreibung (wie \"Zuhause\" oder \"Büro\")",
+    "descriptionInputShort": "Beschreibung",
+    "descriptionInputBusiness": "Beschreibung (wie \"Zentrale\" oder \"Büro München\")"
+  },
+  "validatePayment": {
+    "message": "Konto, Tarif und Zahlungsmethode werden eingerichtet."
+  },
+  "completedPayment": {
+    "message": "Vielen Dank, Ihre Buchung wurde bestätigt.",
+    "nextHeader": "Nun zu Ihrer Post!",
+    "next": "Nachsendeauftrag einrichten"
+  },
+  "onboardingSteps": {
+    "stepOne": "Konto erstellt",
+    "stepTwo": "Tarif ausgewählt",
+    "stepThree": "Bezahlung eingerichtet",
+    "stepFour": "Nachsendeauftrag buchen",
+    "stepFourFinished": "Nachsendeauftrag gebucht"
+  },
+  "selectReturnAll": {
+    "headline": "Originale",
+    "subHeadline": "Was sollen wir mit Ihren Originalen machen?",
+    "back": "Zurück",
+    "next": "Speichern und weiter",
+    "pro": "PRO",
+    "con": "CON",
+    "defaultOption": "MEIST GEWÄHLT",
+    "all": {
+      "title": "Rücksendung aller Originale in regelmäßigem Turnus",
+      "pro": "Sie bekommen \"immer alle\" Originale zugesandt und müssen nicht im voraus aktiv werden",
+      "con": "Sie bekommen \"immer alle\" Originale zugesandt, auch die, die Sie eigentlich nicht benötigen"
+    },
+    "decide": {
+      "title": "Vernichtung aller Originale, außer Sie markieren sie zur Rücksendung",
+      "pro": "Sie bekommen nur die Originale zugesandt, die Sie wirklich brauchen (und nicht \"immer alle\")",
+      "con": "Dokumente werden grundsätzlich vernichtet. Sie müssen also aktiv werden, wenn Sie ein Dokument wieder haben wollen."
+    },
+    "warning": "Achtung! Diese Auswahl ist final. Je nach Wahl werden wir Ihnen ein spezialisiertes Scancenter zuweisen."
+  },
+  "invite": {
+    "pageHeader": "nicht öffentlich",
+    "formHeader": "Für Zugriff kostenfreies CAYA Konto erstellen"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "common": {
+    "private": "Private",
+    "business": "Business",
+    "mottoL1": "Enjoy life ",
+    "mottoL2": "without paper",
+    "subMotto": "Receive letters everywhere, any time",
+    "toInfo": "Find all info here",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "resetpw": "Reset Password",
+    "copyright-text": "AMN Data Solutions GmbH, All Rights Reserved.",
+    "ios-link-label": "Download Caya App from Apple's App Store",
+    "android-link-label": "Download Caya App from Google's Play Store"
+  },
+  "login": {
+    "forgotPassword": "Forgot password",
+    "submit": "Log in",
+    "title": "Login to your CAYA account",
+    "sub-title": "You don't have an account yet?",
+    "email-input-label": "Email",
+    "password-input-label": "Password",
+    "submit-button": "Login",
+    "link-to-signup": "Sign up",
+    "link-to-reset-password": "Forgot Password?",
+    "single-sign-on-google-button": "Continue with Google",
+    "single-sign-on-microsoft-button": "Continue with Microsoft",
+    "or-single-sign-on": "or",
+    "auth": {
+      "errors": {
+        "LimitExceededException": {
+          "reason": "Too many attempts",
+          "suggestion": "Calm your nerves and dig deep"
+        },
+        "NotAuthorizedException": {
+          "reason": "Login error",
+          "suggestion": "Check email & password"
+        },
+        "UserMigrationException": {
+          "reason": "Login error",
+          "suggestion": "Exception"
+        },
+        "UserNotFoundException": {
+          "reason": "Email and password combination does not match our data.",
+          "suggestion": "Check email & password"
+        },
+        "general": {
+          "reason": "Ooops! Something went wrong.",
+          "suggestion": "Reloading the page often helps"
+        }
+      }
+    }
+  },
+  "resetpw": {
+    "forgotPassword": "Forgot password?",
+    "giveEmail": "Please supply your email address",
+    "resendEmail": "Send again",
+    "resetPassword": "Reset password",
+    "success": "We sent you an email with a link for resetting your password.",
+    "backToLogin": "Back to the Login"
+  },
+  "newpw": {
+    "writeNewPass": "Please chose a new password",
+    "confirmPass": "Confirm password",
+    "pwNoMatch": "Your passwords are not the same",
+    "submit": "Save new password",
+    "savedSuccessfully": "New password saved successfully"
+  },
+  "signup": {
+    "termsDisclaimer": {
+      "sentence1": "By clicking on \"Sign up\" I accept the ",
+      "abgLink": "Terms & Conditions with Cancellation Policy",
+      "sentence2": ". I have read and understood the ",
+      "datenschutzLink": "Privacy Policy",
+      "sentence3": " understood"
+    },
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "companyName": "Company",
+      "email": "Email",
+      "password": "Password",
+      "newsletter": "I agree to receive information and surveys about CAYA products. I am aware that I can revoke my consent any time.",
+      "submit": "Sign up",
+      "phoneNumber": "Telephone number (prefer mobile)",
+      "teamSubmit": "Sign up"
+    },
+    "emailExistsComponent": "<0>An account with this email address already exists. <2 />Please use the <6> Login</6> or <6>Password reset</6>.<br />Thanks, Your CAYA Team!</0> ",
+    "emailExists": {
+      "info": "An account with this email address already exists. ",
+      "loginLink": "Login",
+      "linkSeparator": " or ",
+      "linkEnd": "are your options.",
+      "resetPwLink": "An account with this email address already exists. ",
+      "thankYou": "Thanks from your CAYA Team!"
+    },
+    "info": {
+      "smallHeader": "CAYA is not only available for your browser.",
+      "mainHeader": "CAYA Mobile Apps: also for Android and Apple iOS",
+      "subline": "More information can be found on the CAYA homepage.",
+      "haveAccount": "Already have an account? ",
+      "planNextStep": "Plan selection in the next step",
+      "changePlan": "Change plan",
+      "year": "Year",
+      "month": "Month",
+      "teamInviteHeader": "Join your team!"
+    },
+    "errors": {
+      "emailNotFound": "Login error",
+      "NotAuthorizedException": "Login error",
+      "LimitExceededException": "Too many attempts, please try again later"
+    }
+  },
+  "auth": {
+    "errors": {
+      "LimitExceededException": "Too many attempts, please try again later",
+      "NotAuthorizedException": "Login error",
+      "UserMigrationException": "Login error",
+      "UserNotFoundException": "Login error"
+    }
+  },
+  "reset-password": {
+    "title": "Forgot your password?",
+    "sub-title": "Please enter your email address below. We will send you a link to reset your password.",
+    "email-input-label": "Email",
+    "reset-submit-button": "Reset password",
+    "link-to-login": "Back to login",
+    "success": {
+      "reason": "Go! Check your email",
+      "suggestion": "We have sent you a link for resetting your password"
+    }
+  },
+  "new-password": {
+    "title": "Reset password",
+    "sub-title": "Please type a new password",
+    "password-input-label": "PASSWORD",
+    "confirm-password-input-label": "CONFIRM PASSWORD",
+    "submit-button": "Save new password",
+    "link-to-login": "Back to login",
+    "password-did-not-match": "Passwords do not match",
+    "success": {
+      "reason": "New password saved",
+      "suggestion": "Now you can login"
+    }
+  }
+}
