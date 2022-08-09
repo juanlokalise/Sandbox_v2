@@ -1,5 +1,16 @@
 {
-  "business-free-202106": {
+   "business-standard-month-202207::description": {
+    "bullets": {
+      "1": "Max of 1 user",
+      "2": "High security & compliance",
+      "3": "Support via email / help center",
+      "4": "Basic Document Cloud with up to 1,000 documents"
+    },
+    "pricePostfix": "monthly",
+    "name": "Free",
+    "description": "Document Management for Self-Employed & Small Businesses"
+  },
+ "business-free-202106": {
     "bullets": {
       "1": "Max of 1 user",
       "2": "High security & compliance",
