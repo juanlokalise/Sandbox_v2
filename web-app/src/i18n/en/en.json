@@ -1,7 +1,7 @@
 {
   "Escaping_characters": {
-    "line break": "test\n\ntest",
-    "Other_character": "test\u00A0test",
-    "Other_test": "\"Questions? Contact us:\n\nIn Canada:\nsupport@eblock.com\n\nIn the United States:\nsales@eblock.com\nEastern US: 833-817-7247\nWestern US: 800-378-0227\""
+    "line break": "test\\n\\ntest",
+    "Other_character": "test\\u00A0test",
+    "Other_test": "\"Questions? Contact us:\\n\\nIn Canada:\nsupport@eblock.com\n\nIn the United States:\nsales@eblock.com\nEastern US: 833-817-7247\nWestern US: 800-378-0227\""
   }
 }
