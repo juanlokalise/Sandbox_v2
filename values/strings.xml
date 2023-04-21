@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="connected_accounts_account_num_connect">Can you see Juan?</string>
+  <string name="privacy_settings_subtitle">Change app preferences</string>
+</resources>
