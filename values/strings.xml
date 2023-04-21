@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
+  <!-- The title on the button on the bottom of the form. Pressing this button submits their account number to connect their account. -->
   <string name="connected_accounts_account_num_connect">Can you see Juan?</string>
+  <!-- The subtitle displayed in the subtitle of privacy settings cell in the legal and privacy section. -->
   <string name="privacy_settings_subtitle">Change app preferences</string>
 </resources>
