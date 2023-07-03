@@ -20,6 +20,7 @@
 "ios-pharmacy.archive.prescription.13fa5fa" = "Archiver l'ordonnance";
 /* Prompt user to archive presciption. */
 "ios-pharmacy.archive.prescription.66c9d10" = "Archiver l'ordonnance";
+
 /* Title for remove pharmacy confirmation */
 "ios-pharmacy.are.you.sure.you.want.to.remo.0069169" = "Voulez-vous vraiment retirer cette pharmacie?";
 /* Text for toggle to auto refill presciption title line */
