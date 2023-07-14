@@ -1,0 +1,136 @@
+{
+    "Empty": "",
+    "Hello": "Bonjour",
+    "Hello %s, how are you today?": "Bonjour %s , comment allez-vous aujourd'hui ?",
+    "weekend": "fin de semaine",
+    "Hello %s, how are you today? How was your %s.": "Bonjour %s , comment allez-vous aujourd'hui ? Comment était votre %s .",
+    "Hi": "Salut",
+    "Howdy": "Salut",
+    "%s cat": {
+        "one": "%s chat",
+        "other": "%s chats"
+    },
+    "%f star": {
+        "one": "%f étoile",
+        "other": "%f étoiles"
+    },
+    "%d star": {
+        "one": "%d étoile",
+        "other": "%d étoiles"
+    },
+    "%s star": {
+        "one": "%s étoile",
+        "other": "%s étoiles"
+    },
+    "cat": {
+        "one": "%s chat",
+        "other": "%s chats"
+    },
+    "cats": {
+        "n": {
+            "one": "%s chat",
+            "other": "%s chats"
+        }
+    },
+    "nested": {
+        "deep": {
+            "plural": {
+                "one": "pluriel",
+                "other": "pluriels"
+            }
+        },
+        "path": {
+            "sub": "nested.path.sub"
+        }
+    },
+    "There is one monkey in the %%s": {
+        "one": "Il y a un singe dans le %% s",
+        "other": "Il y a %d singes dans les %% s"
+    },
+    "tree": "arbre",
+    "There is one monkey in the %s": {
+        "one": "Il y a un singe dans le %s",
+        "other": "Il y a %d singes dans le %s"
+    },
+    "There is one monkey in the tree": {
+        "one": "Il y a un singe dans l'arbre",
+        "other": "Il y a %d singes dans l'arbre"
+    },
+    "plurals with intervals in string (no object)": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout",
+    "plurals with intervals in _other_ missing _one_": {
+        "one": "",
+        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+    },
+    "plurals with intervals as string": {
+        "one": "La règle \"un\" par défaut",
+        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+    },
+    "plurals with intervals as string (excluded)": {
+        "one": "La règle \"un\" par défaut",
+        "other": "[0] une règle zéro|]2,5[ deux à cinq (exclus)|et une règle fourre-tout"
+    },
+    "plurals in any order": {
+        "one": "La règle \"un\" par défaut",
+        "other": "[0] une règle zéro|et une règle fourre-tout|[2,5] deux à cinq (inclus)"
+    },
+    "plurals to eternity": "[0,] cela durera éternellement|mais seulement gt 0",
+    "plurals from eternity": "[,0] ceci est né bien avant|mais seulement lt 0",
+    "Hello %s": "Bonjour %s",
+    "Hello {{name}}": "Bonjour {{name}}",
+    "Hello {{name}}, how was your %s?": "Bonjour {{name}} , comment était votre %s ?",
+    "format": {
+        "date": "MM\/JJ\/AAAA",
+        "time": "h:mm:ss un"
+    },
+    "greeting": {
+        "formal": "Bonjour",
+        "informal": "Salut",
+        "placeholder": {
+            "formal": "Bonjour %s",
+            "informal": "Salut %s",
+            "loud": "salutation.espace réservé.fort"
+        },
+        "plurals": {
+            "one": "La règle \"un\" par défaut",
+            "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+        }
+    },
+    "another": {
+        "nested": {
+            "extra": {
+                "deep": {
+                    "example": {
+                        "one": "La règle \"un\" par défaut",
+                        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+                    }
+                },
+                "lazy": {
+                    "example": {
+                        "one": "",
+                        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+                    }
+                },
+                "mustache": {
+                    "example": "[0] une règle zéro pour {{me}} |[2,5] deux à cinq (inclus) pour {{me}} |et une règle passe-partout pour {{me}}"
+                },
+                "mustacheprintf": {
+                    "example": "[0] %s est une règle nulle pour {{me}} |[2,5] %s est entre deux et cinq (inclus) pour {{me}} |et une règle fourre-tout pour {{me}} pour obtenir mon nombre %s"
+                }
+            }
+        }
+    },
+    "nested.deep.plural": {
+        "one": "imbriqué.profond.pluriel",
+        "other": "1"
+    },
+    "ordered arguments": "%2$s puis %1$s",
+    "ordered arguments with numbers": "%2$d puis %1$s puis %3$.2f",
+    "repeated argument": "%1$s , %1$s , %1$s",
+    ". is first character": "Le point est le premier caractère",
+    "last character is .": "le dernier caractère est un point",
+    "few sentences. with .": "quelques phrases avec point",
+    "Hello {{{name}}}": "Bonjour {{{name}}}",
+    "Standalone | 42 symbol somewhere | in the text | 1| 0": "Autonome | 42 symbole quelque part | dans le texte | 1| 0",
+    "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "devrait ignorer\\n autonome | melanger avec\\n nouvelles lignes 42 | valeur - 42",
+    "mftest": "Dans {lang} il y a {NUM, plural,one{ est un pour #}other{ autres pour #}}"
+}
