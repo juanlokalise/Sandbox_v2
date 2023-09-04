@@ -1,0 +1,134 @@
+{
+    "%d star": {
+        "one": "%d étoile",
+        "other": "%d étoiles"
+    },
+    "%f star": {
+        "one": "%f étoile",
+        "other": "%f étoiles"
+    },
+    "%s cat": {
+        "one": "%s chat",
+        "other": "%s chats"
+    },
+    "%s star": {
+        "one": "étoile %s",
+        "other": "%s étoiles"
+    },
+    ". is first character": "Le point est le premier caractère",
+    "Empty": "",
+    "Hello": "Bonjour",
+    "Hello %s": "Bonjour %s",
+    "Hello %s, how are you today?": "Bonjour %s , comment vas-tu aujourd'hui ? Juan",
+    "Hello %s, how are you today? How was your %s.": "Bonjour %s , comment vas-tu aujourd'hui ? Comment était votre %s .",
+    "Hello {{name}}": "Bonjour {{name}}",
+    "Hello {{name}}, how was your %s?": "Bonjour {{name}} , comment s'est passé votre %s ?",
+    "Hello {{{name}}}": "Bonjour {{{name}}}",
+    "Hi": "Salut",
+    "Howdy": "Salut",
+    "Standalone | 42 symbol somewhere | in the text | 1| 0": "Autonome | 42 symbole quelque part | dans le texte | 1| 0",
+    "There is one monkey in the %%s": {
+        "one": "Il y a un singe dans les %% s",
+        "other": "Il y a %d singes dans les %% s"
+    },
+    "There is one monkey in the %s": {
+        "one": "Il y a un singe dans le %s",
+        "other": "Il y a %d singes dans %s"
+    },
+    "There is one monkey in the tree": {
+        "one": "Il y a un singe dans l'arbre",
+        "other": "Il y a %d singes dans l'arbre"
+    },
+    "another": {
+        "nested": {
+            "extra": {
+                "deep": {
+                    "example": {
+                        "one": "La règle « un » par défaut",
+                        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+                    }
+                },
+                "lazy": {
+                    "example": {
+                        "one": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout",
+                        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+                    }
+                },
+                "mustache": {
+                    "example": "[0] une règle zéro pour {{me}} |[2,5] deux à cinq (inclus) pour {{me}} |et une règle fourre-tout pour {{me}}"
+                },
+                "mustacheprintf": {
+                    "example": "[0] %s est la règle zéro pour {{me}} |[2,5] %s est compris entre deux et cinq (inclus) pour {{me}} |et une règle fourre-tout pour {{me}} pour obtenir mon numéro %s"
+                }
+            }
+        }
+    },
+    "cat": {
+        "one": "%s chat",
+        "other": "%s chats"
+    },
+    "cats": {
+        "n": {
+            "one": "%s chat",
+            "other": "%s chats"
+        }
+    },
+    "format": {
+        "date": "MM\/JJ\/AAAA",
+        "time": "h:mm:ssa"
+    },
+    "greeting": {
+        "formal": "Bonjour",
+        "informal": "Salut",
+        "placeholder": {
+            "formal": "Bonjour %s",
+            "informal": "Salut %s",
+            "loud": "salutation.placeholder.loud"
+        },
+        "plurals": {
+            "one": "La règle « un » par défaut",
+            "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+        }
+    },
+    "last character is .": "le dernier caractère est Dot",
+    "nested.deep.plural": {
+        "one": "imbriqué.profond.pluriel",
+        "other": "1"
+    },
+    "nested": {
+        "deep": {
+            "plural": {
+                "one": "pluriel",
+                "other": "pluriels"
+            }
+        },
+        "path": {
+            "sub": "nested.path.sub"
+        }
+    },
+    "ordered arguments": "%2$s puis %1$s",
+    "ordered arguments with numbers": "%2$d puis %1$s puis %3$.2f",
+    "plurals from eternity": "[,0] c'est né bien avant|mais seulement lt 0",
+    "plurals in any order": {
+        "one": "La règle « un » par défaut",
+        "other": "[0] une règle zéro|et une règle fourre-tout|[2,5] deux à cinq (inclus)"
+    },
+    "plurals to eternity": "[0,] cela durera pour toujours | mais seulement gt 0",
+    "plurals with intervals as string": {
+        "one": "La règle « un » par défaut",
+        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+    },
+    "plurals with intervals as string (excluded)": {
+        "one": "La règle « un » par défaut",
+        "other": "[0] une règle zéro|]2,5[ deux à cinq (exclus)|et une règle fourre-tout"
+    },
+    "plurals with intervals in _other_ missing _one_": {
+        "one": "",
+        "other": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout"
+    },
+    "plurals with intervals in string (no object)": "[0] une règle zéro|[2,5] deux à cinq (inclus)|et une règle fourre-tout",
+    "repeated argument": "%1$s , %1$s , %1$s",
+    "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "devrait ignorer\\n autonome | melanger avec\\n nouvelles lignes 42 | valeur - 42",
+    "tree": "arbre",
+    "weekend": "fin de semaine"
+}

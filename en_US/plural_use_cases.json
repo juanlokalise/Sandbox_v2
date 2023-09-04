@@ -1,0 +1,134 @@
+{
+    "%d star": {
+        "one": "",
+        "other": ""
+    },
+    "%f star": {
+        "one": "",
+        "other": ""
+    },
+    "%s cat": {
+        "one": "",
+        "other": ""
+    },
+    "%s star": {
+        "one": "",
+        "other": ""
+    },
+    ". is first character": "",
+    "Empty": "",
+    "Hello": "",
+    "Hello %s": "",
+    "Hello %s, how are you today?": "",
+    "Hello %s, how are you today? How was your %s.": "",
+    "Hello {{name}}": "",
+    "Hello {{name}}, how was your %s?": "",
+    "Hello {{{name}}}": "",
+    "Hi": "",
+    "Howdy": "",
+    "Standalone | 42 symbol somewhere | in the text | 1| 0": "",
+    "There is one monkey in the %%s": {
+        "one": "",
+        "other": ""
+    },
+    "There is one monkey in the %s": {
+        "one": "",
+        "other": ""
+    },
+    "There is one monkey in the tree": {
+        "one": "",
+        "other": ""
+    },
+    "another": {
+        "nested": {
+            "extra": {
+                "deep": {
+                    "example": {
+                        "one": "",
+                        "other": ""
+                    }
+                },
+                "lazy": {
+                    "example": {
+                        "one": "",
+                        "other": ""
+                    }
+                },
+                "mustache": {
+                    "example": ""
+                },
+                "mustacheprintf": {
+                    "example": ""
+                }
+            }
+        }
+    },
+    "cat": {
+        "one": "",
+        "other": ""
+    },
+    "cats": {
+        "n": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "format": {
+        "date": "",
+        "time": ""
+    },
+    "greeting": {
+        "formal": "",
+        "informal": "",
+        "placeholder": {
+            "formal": "",
+            "informal": "",
+            "loud": ""
+        },
+        "plurals": {
+            "one": "",
+            "other": ""
+        }
+    },
+    "last character is .": "",
+    "nested.deep.plural": {
+        "one": "",
+        "other": ""
+    },
+    "nested": {
+        "deep": {
+            "plural": {
+                "one": "",
+                "other": ""
+            }
+        },
+        "path": {
+            "sub": ""
+        }
+    },
+    "ordered arguments": "",
+    "ordered arguments with numbers": "",
+    "plurals from eternity": "",
+    "plurals in any order": {
+        "one": "",
+        "other": ""
+    },
+    "plurals to eternity": "",
+    "plurals with intervals as string": {
+        "one": "",
+        "other": ""
+    },
+    "plurals with intervals as string (excluded)": {
+        "one": "",
+        "other": ""
+    },
+    "plurals with intervals in _other_ missing _one_": {
+        "one": "",
+        "other": ""
+    },
+    "plurals with intervals in string (no object)": "",
+    "repeated argument": "",
+    "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "",
+    "tree": "",
+    "weekend": ""
+}
