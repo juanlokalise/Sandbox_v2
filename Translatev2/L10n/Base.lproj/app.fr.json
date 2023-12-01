@@ -1,0 +1,1872 @@
+{
+  "header": {
+    "inbox": "Inbox",
+    "trash": "Trash",
+    "forward": "Delivery Originals",
+    "userMenu": {
+      "website": "Website",
+      "faq": "Help Center",
+      "android": "Android App",
+      "ios": "iOS App",
+      "settings": "Settings",
+      "upgrade": "Upgrade",
+      "logout": "Log out",
+      "new": "New",
+      "noFolderInInbox": "Folders can't be moved into inbox",
+      "referAFriend": "Refer a friend",
+      "language": "Language",
+      "zendeskWidgetError": "Help pop-up could not be loaded, please disable AdBlocker, or allow external scripts."
+    },
+    "returns": "Delivery Originals",
+    "settings": "Settings",
+    "close": "Close",
+    "search": {
+      "placeholder": "Search texts & data fields",
+      "buttonLabel": "Search",
+      "header": "Search results"
+    },
+    "archive": "Archive",
+    "FolderInbox": "Inbox",
+    "FolderArchive": "Archive",
+    "FolderTrash": "Trash",
+    "originals": "Manage Originals",
+    "coronaBanner": "<b> Current information about COVID-19 and CAYA: </b> Our service is not affected, you can find all information <u> here </u>",
+    "FolderInboxSub": "Your docs arrive here",
+    "FolderTrashSub": "Your trashed docs",
+    "support": "Questions & Help",
+    "supportNumber": {
+      "number": "030 837 998 70",
+      "copiedToClipboardSuccess": "Phone number successfully copied to the clipboard"
+    },
+    "FolderSharedWithMe": "Shared with me",
+    "sharedWithMe": "Shared With Me",
+    "upgradeNow": "Upgrade now",
+    "menu": {
+      "collapse": "Minimize",
+      "expand": "Expand"
+    },
+    "workflows": "Workflows",
+    "automagic": ""
+  },
+  "content": {
+    "returns": {
+      "send": "Request delivery now",
+      "changeNoAddress": "Originals can not be delivered without an address – please add one here",
+      "changeWithAddress": "Change",
+      "request": {
+        "accept1": "Yes, please send the selected originals to the aprovided delivery address. I accept the ",
+        "acceptLink": "Terms and Conditions with Cancellation Policy",
+        "accept2": ".",
+        "price": "Price for immediate delivery of originals",
+        "price.notAvailable": "Unfortunately, we can not determine a price for the immediate delivery of originals",
+        "orderSuccess": "Order succeeded",
+        "orderFailure": "Order failed",
+        "multipleSources": {
+          "title": "Successfully ordered - ATTENTION - split into several packages!",
+          "okButtonText": "Got it!",
+          "info": "We are currently moving our archive. The originals you ordered are located in different locations and will therefore be sent split in different packages. You have no extra costs for the additional package(s). The packages and their content are split already in the overview list below and you will receive a separate tracking link for each of them by e-mail.\nThank you for your understanding,\nYour CAYA Team"
+        }
+      },
+      "title": "Delivery Originals",
+      "status": {
+        "preparing": "In Progress",
+        "sent": "Bundled Delivery"
+      },
+      "address": "Address for your next delivery:",
+      "requestedDate": "Delivery Originals, requested on {{date}}",
+      "openReturn": {
+        "noDocuments": "No originals included in your next delivery yet.",
+        "nextReturnAt": "The originals listed here are automatically sent to you free of charge (within Germany) after the {{date}}. Processing can take up to 20 working days.",
+        "nextReturnAtInfo": "A delivery of originals required urgently can be selected and ordered afterward by clicking the blue \"Request delivery now\" button.",
+        "cancelSelection": "Cancel",
+        "selectDocsTitle": "The chosen originals will be ordered by clicking on «request delivery now».",
+        "selectDocsInfo": "You can order up to {{maxCount}} originals per immediate delivery. Currently selected:",
+        "documentCount": "{{count}} documents"
+      },
+      "DHLButton": "Delivery Tracking",
+      "openReturnsTitle": "Choose originals for your next delivery:",
+      "closedReturnsTitle": "Past deliveries of originals"
+    },
+    "settings": {
+      "managePlan": "Manage Subscription",
+      "addFreeSource": "Set up now. It's free!",
+      "account": {
+        "name": "Name",
+        "email": "Email",
+        "talkToCustomerSupportInfo": "If you change your e-mail address, please make sure that the spelling is correct, because registration will only be possible with the new email address. If you have any problems, please check our Help Center or write to us at hello@getcaya.com.",
+        "company": "Company",
+        "planSectionTitle": "Plan",
+        "accountSectionTitle": "Your CAYA Account",
+        "validation": {
+          "wrongPassword": "Wrong password",
+          "newEmail": "Email must be different",
+          "emailInUse": "Email already assigned"
+        },
+        "password": "Password",
+        "emailChangeConfirmation": "Email will be changed to {{newEmail}}.",
+        "cancelPlanModal": {
+          "line1": "Hello {{customerName}},\n\nthis is how your cancellation process will look like:\n",
+          "bullet1": "Your contract can be terminated on {{endDate}}.\n",
+          "bullet2": "14 days before this date, we will cancel the forwarding orders that you have ordered via CAYA, so that no further mail arrives. If you want to cancel forwarding orders earlier, you can do this in 'Settings > Incoming mail'. If you have placed other forwarding orders yourself or have given the CAYA Postbox address to others, please inform your business / correspondence partners well beforehand.",
+          "bullet3": "14 days after the above date, your last automatic bulk delivery will be initiated. The dispatch of this bulk delivery will then be carried out within 20 working days. If you have a plan that does not include free bulk deliveries, you will not be entitled to any  after cancellation. You can request the documents via immediate delivery for a fee.\n",
+          "bullet4": "Your CAYA account will remain active even after your cancellation so that you can continue to access your data. As a gesture of goodwill, we will scan letters arriving shortly after your cancellation and provide them to you in the CAYA platform. Letters arriving after this period will not be accepted. Incoming originals can still be ordered for a fee. Please make sure that no further letters are received by us.\n",
+          "line2": "Before you cancel your contract with us, we would like to thank you for your trust and our cooperation. We hope that your time with an empty mailbox has given you the freedom and time in everyday life that you expected from us. We look forward to winning you back as a customer soon.\n\nThank you\nYour CAYA Team",
+          "cancelAccountButtonLabel": "Cancel CAYA subscription"
+        },
+        "cancellationError": "There was an issue with cancelling your subscription, please try again.",
+        "cancellationBanner": {
+          "title": "Questions about functions or your contract?",
+          "annually": "annually",
+          "monthly": "monthly",
+          "extensionYear": "another year",
+          "extensionMonth": "one month",
+          "line1": "We are happy to help you",
+          "line2": "If you have any questions concerning your contract we are happy to assist you. Simply reach out to our friendly customer experience team via email - if you wish, also leave your phone number. You can reach us anytime via hello@getcaya.com. ",
+          "line3": "Your current contract runs until {{endDate}}. It is a contract that can be terminated {{billingPeriod}}. 14 days before the end of the term, the contract is automatically extended by {{extensionTime}}.",
+          "cancelAccountQuestion": "Questions about the duration of the contract or termination?",
+          "learnMore": "Learn more"
+        },
+        "phoneNumber": "Telephone number (prefer mobile)",
+        "preCancellationModal": {
+          "heading": "Oh, no!😢",
+          "subHeading": "We are sorry to lose you as a customer. We would be pleased if you would give us another chance. If you email us, we will do our best to solve your issue to your satisfaction.",
+          "supportEmail": "hello@getcaya.com",
+          "confirmationText": "Do you wish to cancel your CAYA subscription?",
+          "continue": "Continue"
+        },
+        "language": "Language",
+        "notifications": {
+          "title": "Notification for new documents in your Inbox",
+          "headline": "BY EMAIL",
+          "body": "Would you like to be notified about new documents arriving in your inbox via email?"
+        },
+        "scanSectionTitle": "Your CAYA Postscan Service",
+        "filenameConventions": {
+          "sectionTitle": "Filename format",
+          "sectionSubTitle": "Set up your filename naming convention for downloaded and forwarded documents. The maximum name lenght is limited to 246 characters, it will be cut when being generated. Special characters might be replaced.",
+          "boxTitle": "Filename format",
+          "preview": "Preview",
+          "resetDefaults": "Reset default",
+          "addDelimiter": "Add separator",
+          "searchPlaceholder": "Search variable",
+          "savedSuccessfully": "Saved format successfully",
+          "failedSaving": "Format NOT saved",
+          "previews": {
+            "id": "xlasjdjdsd139823r747fnfn2",
+            "publicId": "123456X",
+            "recipientName": "Recipient",
+            "scanId": "1-20211119-0011-701647890-0001673801-644730",
+            "senderName": "Sender name",
+            "subject": "Invoice No. 123456",
+            "tag1": "Invoice",
+            "tag2": "Supplier",
+            "tag3": "Paid"
+          },
+          "featureBox": {
+            "title": "Individual Filename format",
+            "subtitle": {
+              "enabled": "Define your individual format for the filename when downloading or forwarding your files from CAYA. Data points and separators can be selected and moved. The total length of the file name is a maximum of 246 characters and is simply truncated at the end. Some special characters are replaced.",
+              "disabled": "Would you like all documents you download or forward to respect your naming conventions?"
+            }
+          },
+          "bookNow": "Book Now",
+          "locked": "Locked"
+        },
+        "automaticForwardings": {
+          "featureBox": {
+            "title": "Automatic Forwarding of the Inbox via EMail",
+            "subtitle": {
+              "enabled": "Feature active in your inbox. If you want to cancel this functionality, please write hello@getcaya.com",
+              "disabled": "Would you like to automatically forward all documents arriving in your inbox to one or multiple email adress(es)?"
+            }
+          }
+        },
+        "filenameManager": {
+          "boxTitle": "Filename format",
+          "preview": "Preview",
+          "resetDefaults": "Reset Default",
+          "addDelimiter": "Separator",
+          "searchPlaceholder": "Search varable",
+          "savedSuccessfully": "Format saved",
+          "failedSaving": "Failed saving",
+          "bookNow": "Book now",
+          "locked": "Locked",
+          "previews": {
+            "id": "xlasjdjdsd139823r747fnfn2",
+            "publicId": "123456X",
+            "recipientName": "Recipient",
+            "scanId": "1-20211119-0011-701647890-0001673801-644730",
+            "senderName": "Sender name",
+            "subject": "Invoice Nr.123456",
+            "tag1": "Invoice",
+            "tag2": "Delivery",
+            "tag3": "Paid"
+          },
+          "featureBox": {
+            "title": "Individual filename format",
+            "book": "Info on feature",
+            "subtitle": {
+              "enabled": "Define your individual format for the filename when downloading or forwarding your files from CAYA. Data points and separators can be selected and moved. The total length of the file name is a maximum of 246 characters and is simply truncated at the end. Some special characters are replaced.",
+              "disabled": "Would you like all documents you download or forward to respect your naming conventions?"
+            }
+          },
+          "featureModal": {
+            "title": "Individual filename format",
+            "cancel": "Not now",
+            "bulletTitle": "Individual filename format",
+            "private": {
+              "legacy": {
+                "book": "Update/Upgrade Plan",
+                "bullets": {
+                  "1": "You can specify for your individual account how the format of the file name should be generated when downloading and forwarding documents.",
+                  "2": "The function is useful to take your individual filing structure into account or to enable automation in your system.",
+                  "3": "This functionality can only be booked in our current plans. Please update/upgrade your plan."
+                }
+              },
+              "free": {
+                "book": "Book now for {{featurePrice}}€/mth.",
+                "bullets": {
+                  "1": "You can specify for your individual account how the format of the file name should be generated when downloading and forwarding documents.",
+                  "2": "The function is useful to take your individual filing structure into account or to enable automation in your system.",
+                  "3": "This feature cost {{featurePrice}}€ monthly - you can book it now here:"
+                }
+              },
+              "valid": {
+                "book": "Book now for {{featurePrice}}€/mth.",
+                "bullets": {
+                  "1": "You can specify for your individual account how the format of the file name should be generated when downloading and forwarding documents.",
+                  "2": "The function is useful to take your individual filing structure into account or to enable automation in your system.",
+                  "3": "This feature cost {{featurePrice}}€ monthly - you can book it now here:"
+                }
+              }
+            },
+            "business": {
+              "legacy": {
+                "book": "Upgrade Now",
+                "bullets": {
+                  "1": "You can specify for your individual account how the format of the file name should be generated when downloading and forwarding documents.",
+                  "2": "The function is useful to take your individual filing structure into account or to enable automation in your system.",
+                  "3": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan."
+                }
+              },
+              "free": {
+                "book": "Upgrade Now",
+                "bullets": {
+                  "1": "You can specify for your individual account how the format of the file name should be generated when downloading and forwarding documents.",
+                  "2": "The function is useful to take your individual filing structure into account or to enable automation in your system.",
+                  "3": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan."
+                }
+              },
+              "valid": {
+                "book": "Upgrade Now",
+                "bullets": {
+                  "1": "You can specify for your individual account how the format of the file name should be generated when downloading and forwarding documents.",
+                  "2": "The function is useful to take your individual filing structure into account or to enable automation in your system.",
+                  "3": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan."
+                }
+              }
+            }
+          }
+        },
+        "forwardings": {
+          "featureBox": {
+            "title": "Automatic forwarding of the inbox via email",
+            "book": "Info on feature",
+            "subtitle": {
+              "enabled": "Feature is active. If you want to cancel this functionality, please write to hello@getcaya.com",
+              "disabled": "Would you like to automatically forward all documents arriving in your CAYA inbox as a PDF attachment to one or multiple e-mail addresses? Please contact hello@getcaya.com to book this feature"
+            }
+          },
+          "featureModal": {
+            "title": "Automatic forwarding of the inbox via email",
+            "cancel": "Not now",
+            "bulletTitle": "Automatic EMail Forwarding of the Inbox",
+            "private": {
+              "legacy": {
+                "book": "Update/Upgrade now",
+                "bullets": {
+                  "1": "Once this functionality is activated, it will show up in the header of your inbox and you will be able to add the email address(es).",
+                  "2": "Every document arriving in your CAYA inbox will from now on be forwarded automatically to this/these email(s).",
+                  "3": "This feature can only be booked in our current plans, please upgrade/update"
+                }
+              },
+              "free": {
+                "book": "Upgrade now",
+                "bullets": {
+                  "1": "Once this functionality is activated, it will show up in the header of your inbox and you will be able to add the email address(es).",
+                  "2": "Every document arriving in your CAYA inbox will from now on be forwarded automatically to this/these email(s).",
+                  "3": "This feature is not available in free plans. Please upgrade your plan."
+                }
+              },
+              "valid": {
+                "book": "Book now for {{featurePrice}}€/month",
+                "bullets": {
+                  "1": "Once this functionality is activated, it will show up in the header of your inbox and you will be able to add the email address(es).",
+                  "2": "Every document arriving in your CAYA inbox will from now on be forwarded automatically to this/these email(s).",
+                  "3": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan."
+                }
+              }
+            },
+            "business": {
+              "legacy": {
+                "book": "Upgrade Now",
+                "bullets": {
+                  "1": "Once this functionality is activated, it will show up in the header of your inbox and you will be able to add the email address(es).",
+                  "2": "Every document arriving in your CAYA inbox will from now on be forwarded automatically to this/these email(s).",
+                  "3": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan."
+                }
+              },
+              "free": {
+                "book": "Upgrade Now",
+                "bullets": {
+                  "1": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan.",
+                  "2": "Every document arriving in your CAYA inbox will from now on be forwarded automatically to this/these email(s).",
+                  "3": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan.Funktion nicht mehr zu nutzen bitte hello@getcaya.com anschreiben"
+                }
+              },
+              "valid": {
+                "book": "Upgrade Now",
+                "bullets": {
+                  "1": "Once this functionality is activated, it will show up in the header of your inbox and you will be able to add the email address(es).",
+                  "2": "Every document arriving in your CAYA inbox will from now on be forwarded automatically to this/these email(s).",
+                  "3": "This functionality is part of our ‘Standard’ and ‘Professional’ plans. Please upgrade your plan."
+                }
+              }
+            }
+          }
+        }
+      },
+      "returns": {
+        "address": "Where should we send your originals?",
+        "scheduled": {
+          "title": "When and how often do you want to receive your originals?",
+          "shipment": "Periodic Delivery of Originals",
+          "auto": "Depending on your plan you have access to the regular delivery of your original documents.\n\nThe regular delivery of your original documents only contains the documents you have manually chosen. Please keep your delivery address always up-to-date. Please be aware that for deliveries abroad extra postage fees may apply."
+        },
+        "selection": "Beyond this selection",
+        "documentsForShipment": "Always add all received originals to the next free (within Germany) delivery of originals.",
+        "delivery": "Deadline for the selection of originals",
+        "nextDelivery": "Until the following date you can add original documents to you next delivery. After this date, the chosen documents are being prepared for dispatch. Please note that the actual date of dispatch may be up to 20 days after the deadline.",
+        "reachedLimit": {
+          "title": "A periodic, free delivery is not included in your plan.",
+          "button": "Change plan"
+        },
+        "additionalInfo": "Depending on your plan you have access to the free regular delivery of your original documents.\nUrgent documents can be requested immediately at any time for a fee under the menu item \"Delivery Originals\"."
+      },
+      "sources": {
+        "addressHeader": "How do we receive your postal mail?",
+        "caya": {
+          "title": "Your CAYA postal address",
+          "additionalInfo": "You can use this address as a postal address for authorities and contractual partners.\nAttention: Please do not use this address to set up your own mail forwarding order! Deutsche Post cannot process independently booked mail forwarding orders to this address. Please order through CAYA instead (see below)."
+        },
+        "sourcesHeader": "Your Subscriptions for Mail Forwarding Orders",
+        "stage": {
+          "Activated": "Active",
+          "Activating": "Setup in progress",
+          "Requested": "Setup in progress",
+          "Canceled": "Canceled",
+          "Cancelling": "Canceling",
+          "Expired": "Expired",
+          "NoExtension": "No renewal ordered"
+        },
+        "cancel": "Cancel",
+        "cancelFailed": "Cancellation failed",
+        "createFailed": "Setup failed",
+        "new": {
+          "title": "Book a postal forwarding",
+          "button": "Order now"
+        },
+        "private": "Private",
+        "business": "Business",
+        "additionalInfo": "When ordering, we set up mail forwardings on your behalf at Deutsche Post and (for Berlin addresses) at PIN MAIL for a fee. The setup of the forwarding can take up to 10 working days. Your mail forwarding will be renewed by us for a fee each year, unless you cancelled our service before. For mail forwardings the general terms and conditions of the respective service providers apply (see below). In case you cancel the mail forwarding we're not able to guarantee a refund. Please note that mail delivery may be delayed due to a mail forwarding. Preferably use your CAYA Postbox address for communication with communication partners. Terms and Conditions Deutsche Post AG: https://shop.deutschepost.de/shop/agb/AGB_Deutsche_Post_Shop.pdf – Terms and Conditions PIN MAIL AG: https://www.pin-ag.de/sites/default/files/flyerbroschuren/agb/pin_mail_ag_agb_nachsendeauftrag_112017.pdf",
+        "reachedLimit": {
+          "title": "To add further mail forwarding orders, please upgrade your plan.",
+          "button": "Upgrade now"
+        },
+        "cancelPrompt": {
+          "title": "Do you wish to cancel the mail forwarding order prematurely?",
+          "content": "Attention: The cancellation of a mail forwarding order cannot be reversed. For the renewed setup of a mail forwarding order costs will be incurred according to the price list. If you are unsure whether you wish to cancel this mail forwarding order or have any questions, please contact us in advance at hello@getcaya.com",
+          "okText": "Yes, really cancel",
+          "cancel": "Cancel"
+        },
+        "cancelExtension": "Do not renew automatically",
+        "cancelExtensionPrompt": {
+          "title": "Are you sure we shouldn't renew your postal forwarding?",
+          "content": "Attention: You cannot undo this cancellation / non-renewal order. Without an active forwarding, your postal mail will only reach us if your correspondents have your CAYA Postbox address or if you set up another forwarding order.",
+          "okText": "Please do not renew",
+          "cancel": "Cancel"
+        },
+        "autoRenew": "Renews automatically",
+        "nextRenewal": "Next renewal on",
+        "noRenewal": "No automatic renewal",
+        "cayaEmail": {
+          "title": "PDF upload email address",
+          "additionalInfo": "Use this email address to forward important PDF documents from your email and save, pay, edit, secure them in CAYA. CAYA is your place for your documents. Limit PDF file size approx. 24MB / No restriction on senders / Forward this address e.g. to receive invoices, but note: only the PDF attachments will be uploaded to your CAYA inbox, text and other content of the emails will not. "
+        },
+        "noPaymentMethod": {
+          "title": "You have not yet configured your payment method",
+          "button": "Configure"
+        }
+      },
+      "addReturn": "Book now for {{value}}",
+      "tabs": {
+        "account": "My Account",
+        "sources": "Incoming Postal Mail",
+        "returns": "Delivery Originals",
+        "integrations": "Integrations",
+        "team": "Team",
+        "more": "More",
+        "automations": "Automations"
+      },
+      "cancelPlan": "Cancel Subscription",
+      "reactivatePlan": "Undo cancellation of your subscription",
+      "cancelledDate": "Subscription will be terminated on: {{date}}",
+      "integrations": {
+        "destinationContextMenu": {
+          "edit": "Edit",
+          "remove": "Remove forwarding destination"
+        },
+        "errors": {
+          "generic": "An error occured",
+          "UNKNOWN_DESTINATION": "Error - Unknown destination",
+          "INVALID_EMAIL": "Error - invalid email",
+          "DESTINATION_EXISTS": "Error - forwarding destination duplicate",
+          "FORWARDING_NON_RECOVERABLE_ERROR": "System error - try again"
+        },
+        "removeDestination": {
+          "title": "Remove forwarding destination",
+          "confirm": "Confirm",
+          "cancel": "Cancel",
+          "info": "This forwarding will be removed"
+        },
+        "setupDestinationModal": {
+          "cancel": "Cancel",
+          "emailLabel": "Email address",
+          "info": "Where can I find the email address? What do I have to consider?",
+          "nameLabel": "Identifier (optional)",
+          "create": "Add integration",
+          "save": "Save",
+          "createSuccess": "Forwarding destination added",
+          "saveSuccess": "Forwarding destination updated",
+          "integrationInfoHelp": "Where can I find the email address? (To the step-by-step instructions)",
+          "customNameLabel": "Identifier"
+        },
+        "active": {
+          "title": "Active integrations",
+          "subTitle": "You can share single documents directly from CAYA to these tools. The sharing process happens through email forwarding to the import email address you have set up.",
+          "emptyList": "You don't have any integrations set up yet.",
+          "hasPaywall": "Inactive because of Paywall"
+        },
+        "all": {
+          "title": "Set up new integration",
+          "subTitle": "Set up an integration. Simply choose an integration to start. \n\nBy the way: You can find all possible integrations with a detailed description as well as a step-by-step instruction for the setup in our ",
+          "subTitleLink": "Integration catalogue",
+          "addIntegration": "Set up"
+        }
+      },
+      "team": {
+        "title": "Share access to CAYA with your team",
+        "subtitle": "Admin users have full access to your CAYA account and all documents in it. \nMember users only have access to documents you share with them explicitely. \nAll charges are billed to the owner's account.",
+        "hero": {
+          "title": "Your docs live in CAYA- your team should also live here",
+          "subtitle": "Invite new users. Share the power!",
+          "ctaLabel": "Invite new user"
+        },
+        "upgradePlan": "Upgrade plan",
+        "usedSeats": "Number of users"
+      },
+      "upgradePlan": {
+        "title": "Upgrade your plan",
+        "next": "Next",
+        "oldPlan": {
+          "title": "You are running an old plan",
+          "subtitle": "Please upgrade your plan in order to use the latest features."
+        },
+        "errors": {
+          "upgradeFailed": "Unfortunately something went wrong with your upgrade, please retry or contact customer support."
+        }
+      },
+      "automations": {
+        "automationsSectionTitle": "Automations",
+        "featureBox": {
+          "title": "Automagic Workflows",
+          "subtitle": "CAYA turns your \"document management\" into \"automagic document workflows\". We just took documents to the next level. Currently we are only setting up these document automations with key accounts willing to collaborate closely. We build with you powerfull automation recipes for your workflows and connect them with you favorite tools. So e.g. you can push documents with certain keywords into shared CAYA folder or into your necessary other tool(s). If you have >100 documents a month with us and want to join our BETA, please contact your Customer Success agent or us via hello@getcaya.com",
+          "isNew": {
+            "title": "Automagic BETA - We turn document management into automagic document workflows",
+            "description": "During this BETA don't be shy and feel free to try everything. Please let us know what you like and what is missing. But oirst and foremost: Have fun! Make your life easier ;-)"
+          },
+          "cta": {
+            "goTo": "Automagic on!",
+            "activate": "Activate Automagic"
+          }
+        },
+        "workflows": {
+          "STANDARD_WORKFLOW": {
+            "title": "Standard Workflows",
+            "subtitle": "Connect your Caya account to our \"Workflows\" feature. Then select powerful automation recipes from our \"Standard Workflows\" overview and thereby connect Caya to your favourite tools.  Let your Caya account start working for you. \\n If you process a lot of documents and therefore have requests for unusual automations, feel free to contact our Customer Success staff at hello@getcaya.com with the keyword \"Custom Workflows\". \\n But for now, have fun testing our BETA."
+          },
+          "CUSTOM_WORKFLOW": {
+            "title": "orkflows editor",
+            "subtitle": "\"With great power comes great responsibility!\""
+          },
+          "CUSTOM_WORKFLOW_EXPERT": {
+            "title": "Workflow Editor for Experts",
+            "subtitle": "Our simple \"if this then that\" logics of the standard workflows can be extended quite a bit here. Hundreds of integrations and its own workflow editor allow you to create your own automation recipes. But beware! Executed automation steps cause us (and then you) additional costs. So create recipes that have no risk of \"vicious circles\" by adding a tag at the end that acts as an exclusion criterion for your recipe."
+          },
+          "NONE": {
+            "title": "Workflows",
+            "subtitle": "\"When a document arrives with the sender (A) and the keyword \"Invoice\", please automatically move it to the Accounting folder.\" \\n\nSuch automations of previously manual work steps are made possible by our standard workflows feature. \\n\nThe feature is available free of charge until 01.09.2022. Please try it out and give us your feedback."
+          },
+          "banner": {
+            "headline": "Workflows are available in free BETA until 01.09.2022. After that, the function will only be available in Standard & Professional plans or for customers who book \"Custom Workflows\" via Customer Success.",
+            "description": "You can only incur additional costs after the BETA phase. Until then, everything is free of charge. We will also not automatically upgrade you, but simply deactivate the function for all those users who do not have a Standard or Professional plan. So please go ahead and test the automation of your standard workflows to the fullest as long as you can."
+          },
+          "call-to-action": {
+            "activate": "Explore Workflows"
+          }
+        }
+      }
+    },
+    "folder": {
+      "actions": {
+        "markAsRead": "Mark as read",
+        "markAsUnread": "Mark Unread",
+        "trash": "Trash",
+        "restore": "Restore",
+        "unsend": "Remove original from next delivery",
+        "send": "Add original to next delivery",
+        "download": "Download",
+        "actionSuccess": "Successfully executed",
+        "sendNow": "Request original(s) now",
+        "rename": "Rename",
+        "createFolder": "Add folder",
+        "moveToFolder": "Move to",
+        "selectAll": "Select all",
+        "delete": "Delete",
+        "deleteConfirmationDialog": {
+          "title": "Delete folder",
+          "description": "Would you like to move the folder(s) «{{folderNames}}» including all contained documents into the trash?",
+          "okText": "Move to Trash",
+          "cancelText": "Cancel"
+        },
+        "moveToFolderDialog": {
+          "title": "Choose target:",
+          "okText": "Move to",
+          "cancelText": "Cancel",
+          "targetFolder": "Target folder"
+        },
+        "moveToArchive": "Archive",
+        "moveToInbox": "Inbox",
+        "reset": "Reset",
+        "done": "Apply filter",
+        "shred": "Destroy original now",
+        "shredConfirmationDialog": {
+          "title": "Irrevocably commission destruction?",
+          "description": "Documents are irrevocably ordered to be destructed. Once ordered, the destruction of originals cannot be reversed. Do you want to continue anyway?",
+          "okText": "Destroy original now",
+          "cancelText": "Cancel"
+        },
+        "menuSection": {
+          "document": "Documents",
+          "move": "Move to",
+          "original": "Options",
+          "folder": "Folder"
+        },
+        "clearSelection": "Deselect",
+        "emptyTrash": "Empty trash",
+        "emptyTrashConfirmationDialog": {
+          "title": "Empty trash",
+          "description": "Documents deleted from the trash are no longer available in the CAYA platform. You can neither view them digitally, nor order the original. Are you sure you want to permanently delete these documents?",
+          "okText": "Empty trash",
+          "cancelText": "Cancel"
+        },
+        "deletePermanently": "Delete permanently",
+        "deletePermanentlyConfirmationDialog": {
+          "title": "Empty trash",
+          "description": "Documents -permanently deleted- will no longer be available to you within CAYA.",
+          "okText": "Delete permanently",
+          "cancelText": "Cancel"
+        },
+        "addIntegrations": "Add destination",
+        "forwardTo": "Forward to",
+        "filterUnread": "Filter for unread ",
+        "filterAll": "Show all documents",
+        "upload": "Upload PDFs",
+        "copy": "Duplicate",
+        "saveCopy": "Duplicate",
+        "uploadDrop": "Upload PDF in target folder",
+        "uploadDropInvalid": "Non PDF format can't be uploaded",
+        "share": "Share"
+      },
+      "multiActionsLabel": "Options for current selection:",
+      "columns": {
+        "actions": "Options",
+        "docData": "Documents",
+        "createdDate": "Date",
+        "folder": "Stored in:",
+        "location": "Docu. state",
+        "nextMoveDate": "Next move",
+        "originals": "Docu. state",
+        "nextAction": "Next action",
+        "tags": "Tag",
+        "sender": "Sender",
+        "description": "Subject",
+        "archiveSender": "Folder / Sender",
+        "sharedBy": "Owner",
+        "share": "Share",
+        "contactDetails": "Contact Details"
+      },
+      "emptyTextDefault": "No Documents",
+      "empty": {
+        "inbox": "Great. There is nothing to do here.",
+        "archive": "There is magic in every blank canvas",
+        "trash": "No documents in trash.",
+        "search": "No documents found.",
+        "folderPicker": "...",
+        "sender": "Unknown sender",
+        "subject": "Subject",
+        "uploadButton": "Upload PDFs",
+        "uploadInfoClickHere": "You can also click here ",
+        "uploadInfoRest": "or simply drag and drop the PDF files into CAYA",
+        "newFolderButton": "Add folder",
+        "newFolderInfo": "Folders help to create your personal filing structure"
+      },
+      "loadMore": "Show more",
+      "newFolder": "Add folder",
+      "documentLocation": {
+        "AtCaya": "Original at CAYA",
+        "InReturnBasket": "In return basket",
+        "PreparingReturnPacket": "Being packed",
+        "ReturnPacketSent": "Was sent out",
+        "Digital": "Digital source / no original attached",
+        "StorageShortTerm": "Shortterm-archive",
+        "StorageLongTerm": "Archive",
+        "ReturnBasket": "Ready to be ordered",
+        "ShredBasket": "Destroyed",
+        "ReturnScheduled": "Next delivery"
+      },
+      "documentNextLocation": {
+        "AtCaya": "Original at CAYA",
+        "InReturnBasket": "In next delivery",
+        "PreparingReturnPacket": "Currently being packed",
+        "ReturnPacketSent": "Sent ",
+        "Digital": "Digital source / no original attached",
+        "StorageShortTerm": "Shortterm-archive",
+        "StorageLongTerm": "Long-term archive",
+        "ReturnBasket": "In next delivery",
+        "ShredBasket": "Original will be destroyed",
+        "ReturnScheduled": "Next delivery",
+        "readyToBeOrdered": "Ready to be requested"
+      },
+      "documentWasDeleted": "Deleted",
+      "listItemTypes": {
+        "folder": "Folder",
+        "selfUpload": "Upload",
+        "letterScan": "Letter scan"
+      }
+    },
+    "addressForm": {
+      "name": "Name",
+      "namePlaceholder": "Name",
+      "street": "Street and House Number",
+      "streetPlaceholder": "Street and House Number",
+      "city": "City",
+      "cityPlaceholder": "City",
+      "zip": "Postcode",
+      "zipPlaceholder": "Postcode",
+      "country": "Country",
+      "countryPlaceholder": "Country",
+      "submitFailed": "Saving was not successful",
+      "validation": {
+        "nChars": "Must be {{num}} characters long",
+        "required": "This is a mandatory field",
+        "maxCharsN": "Not more than {{num}} characters",
+        "maxNamesN": "Up to {{num}} names",
+        "foreignZip": "Not a German ZIP code, postal charges will apply"
+      },
+      "nameForReturns": "Name",
+      "namePlaceholderForReturns": "Complete Name",
+      "nameForSources": "Name",
+      "namePlaceholderForSources": "Complete Name",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject",
+      "addName": "Add another name",
+      "nameForBusinessSources": "Company Name",
+      "namePlaceholderForBusinessSources": "Full Company Name (only one company per Mail Forwarding Order possible)",
+      "addNameDescription": "A private mail forwarding can cover up to 5 names of persons at the same postal address free of charge.",
+      "additionalInfo": "Additional information",
+      "additionalInfoPlaceholderForReturns": "eg C / O or postal number",
+      "phonePlaceholder": "Phone number",
+      "emailPlaceholder": "Email",
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "documentDetail": {
+      "preview": {
+        "pagesInfo": "Preview limited to 10 of {{numPages}} pages"
+      },
+      "info": {
+        "title": "Details",
+        "date": "Date",
+        "sender": "Sender",
+        "subject": "Subject",
+        "validation": {
+          "isNumberWithNChars": "This needs to be a number",
+          "nChars": "Must be {{num}} characters"
+        },
+        "tags": {
+          "validation": {
+            "minChars": "Tags need to have at least {{num}} characters",
+            "maxChars": "Tags can't be longer than {{num}} characters",
+            "noDuplicates": "This tag was already used."
+          },
+          "title": "Tag",
+          "inputPlaceholder": "Add Tag +",
+          "updateFailed": "There was a problem updating tags"
+        },
+        "folder": "Stored in:",
+        "location": "Document state",
+        "docId": "Document ID",
+        "original": "Original file (immutable)",
+        "downloadOriginal": "Download",
+        "from": "From",
+        "to": "For",
+        "scanId": {
+          "title": "Scan barcode",
+          "copied": "Scan barcode copied!"
+        },
+        "scanDate": {
+          "title": "Scan timestamp",
+          "copied": "Scan timestamp copied!"
+        },
+        "on": "on"
+      },
+      "actions": {
+        "title": "Options",
+        "sections": {
+          "moveTo": "Move to",
+          "original": "Manage Originals",
+          "download": "Download",
+          "goBack": "Back",
+          "markAsUnread": "Mark unread",
+          "share": "Share",
+          "forward": "Forward to",
+          "duplicateDocument": "Duplicate",
+          "trash": "Move to trash",
+          "previous": "Previous Doc",
+          "next": "Next Doc",
+          "markAsRead": "Mark as read"
+        },
+        "copyEmail": "Copy email address",
+        "copyPhone": "Copy phone number",
+        "copyEmailSuccess": "Email address copied to clipboard",
+        "copyPhoneSuccess": "Phone number copied to clipboard"
+      },
+      "payments": {
+        "paymentConsent": {
+          "error": "At the moment we can't store your consent to the use of Pay Now. Please try again later.",
+          "step1": {
+            "title": "Please check the payment details carefully in advance.",
+            "sub": "We cannot be held liable for incorrect bank transfers."
+          },
+          "step2": {
+            "title": "Log in to your own online banking to transfer money.",
+            "sub": "We offer this function in cooperation with FinTecSystems GmbH. FinTecSystems GmbH is a payment institution regulated by the German Federal Financial Supervisory Authority (BaFin)."
+          },
+          "step3": {
+            "title": "Confirm your payment as usual via TAN.",
+            "sub": "Your bank decides which TAN procedure to use. Neither CAYA nor FinTecSystems store your online banking access credentials."
+          },
+          "acceptTermsTitle": "I wish to use CAYA Pay Now at my own risk.",
+          "acceptTermsSub": "I am aware that I need to check every single payment order for completeness and correctness, since payment transfers can no longer be revoked after their confirmation via TAN.",
+          "disclaimer": "Please check the payment details carefully in advance.",
+          "empty": "No payment details have been found.",
+          "incomplete": "Not all payment fields filled, please check the details before paying."
+        },
+        "fintecWidget": {
+          "bankSelectionTitle": "Please select your bank:"
+        },
+        "saveData": {
+          "success": "Payment data successfully saved",
+          "failure": "The payment data could not be saved."
+        },
+        "payDocument": {
+          "successTitle": "Your payment transfer was instructed.",
+          "failure": "We could not process the payment. Please try again later.",
+          "successText": "Please note: Transfers are executed by your bank, subject to sufficient account coverage. Please check your online banking to see whether the transfer was successful."
+        },
+        "fieldValidationError": {
+          "invalidCharsForField": "The input contains invalid characters",
+          "fieldRequired": "This is a mandatory field",
+          "maxCharsN": "Should not be longer than {{num}} characters",
+          "minNumN": "Has to be longer than {{num}} characters",
+          "reservedWord": "This word can not be used",
+          "maxDecimalsN": "Not more than {{num}} decimals",
+          "typeNaN": "Please supply a number",
+          "invalid": {
+            "iban": "Invalid IBAN",
+            "bic": "Invalid BIC"
+          },
+          "minCharsN": "Has to be longer than {{num}} characters"
+        },
+        "fields": {
+          "recipient": {
+            "label": "Payment Recipient",
+            "placeholder": "Payment Recipient",
+            "empty": "No Recipient"
+          },
+          "bic": {
+            "label": "BIC",
+            "placeholder": "BIC"
+          },
+          "iban": {
+            "label": "IBAN",
+            "placeholder": "IBAN",
+            "empty": "No IBAN"
+          },
+          "reference": {
+            "label": "Payment Reference (max. 140 characters)",
+            "placeholder": "Payment Reference",
+            "empty": "No Payment Reference"
+          },
+          "amount": {
+            "label": "Amount (EUR,Ct.)",
+            "placeholder": "Amount",
+            "empty": "No Amount"
+          }
+        },
+        "title": "Pay Now",
+        "paymentComplete": {
+          "failed": {
+            "title": "Connection to FinTecSystems could not be established",
+            "content": "Unfortunately we could not establish a connection to FinTecSystems at the moment. Please try again later."
+          },
+          "succeeded": {
+            "title": "Your transfer is instructed",
+            "content": "Please note: Transfers are executed by your bank, subject to sufficient account coverage. Please check your online banking to see whether the transfer was successful."
+          },
+          "close": "Close"
+        },
+        "modalTitle": {
+          "consent": "Wire transfers with CAYA",
+          "payment": "Make a wire transfer"
+        },
+        "editDetails": "Edit details",
+        "details": "Invoice details"
+      },
+      "tabs": "",
+      "tabs_plural": "",
+      "documentIssue": {
+        "title": "Problems with this document?",
+        "buttonLabel": "Feedback",
+        "form": {
+          "title": "Give Feedback",
+          "issueSelectLabel": "What is your feedback about?",
+          "issueSelectPlaceholder": "Select one",
+          "issueQuality": "Scan quality is bad",
+          "issueDigitized": "This document shouldn’t have been scanned",
+          "issueTagged": "The tags for the document are incorrect",
+          "problemDescription": "What are you not happy with? Needs to be corrected?",
+          "problemDescriptionPlaceholder": "The problem with this document is ...",
+          "replyEmail": "To whom should we reply?",
+          "scanCenterInfo": "Information for the scan center",
+          "submitButtonLabel": "Send request",
+          "cancel": "Cancel",
+          "successMessage": "Request sent successfully."
+        }
+      },
+      "documentCount": "{{currentCount}} of {{maxCount}}",
+      "readOnly": {
+        "badge": "Read only"
+      }
+    },
+    "sourceForm": {
+      "private": "Private",
+      "business": "Business",
+      "submitFailed": "Saving was not successful",
+      "addFreeSource": "Book now – it's free",
+      "addSource": "Book for {{value}} € per year",
+      "cancel": "Abort",
+      "save": "Save"
+    },
+    "toAppStore": {
+      "useApp": {
+        "line1": "Not optimized for mobile browsers.",
+        "line2": "Please download our mobile app here:"
+      },
+      "stayInDesktop": "Continue with desktop version",
+      "linkToStoreAlt": "Link to mobile CAYA app in {{store}}"
+    },
+    "createFolderForm": {
+      "validation": {
+        "required": "This is a mandatory field",
+        "maxCharsN": "Not more than {{num}} characters"
+      }
+    },
+    "referAFriend": {
+      "modalTitle": "Refer a friend & profit",
+      "header": {
+        "title": "CAYA is worth it!",
+        "text": "Once your friends pay their first CAYA invoice, you'll get 10€ credited.",
+        "action": "Copy invitation & coupon code:"
+      },
+      "info": {
+        "title": "Step by step guide:",
+        "block1": {
+          "title": "Send out your invitation and coupon",
+          "text": "Simply press the blue \"copy\" button above. We already wrote a little invitation for you..."
+        },
+        "block2": {
+          "title": "Your friends first month is on us",
+          "text": "If your friends use your coupon code during sign-up then they will not pay for their first month of using CAYA"
+        },
+        "block3": {
+          "title": "10€ credit for you",
+          "text": "Once your referral has paid their first invoice we will automatically credit your account with 10€."
+        }
+      },
+      "clipboardText": "Take a look at CAYA: caya.link/raf !\n\nWith it you can receive and process your postal mail digitally online. I use it already and can't imagine life without it anymore. If you enter the code \" {{voucherCode}} \" during registration, you can use CAYA for free for one month. \n\nTry it it's great!",
+      "copySuccess": "Successfully copied to clipboard"
+    },
+    "helpdeskCards": {
+      "returns": {
+        "label": "Questions about the delivery of originals?",
+        "subLabelStart": "We answered the most common questions in our",
+        "subLabelMiddle": "Help Center",
+        "subLabelEnd": " answered.",
+        "buttonLabel": "Help topic: Originals"
+      },
+      "account1": {
+        "label": "Questions about your contract?",
+        "subLabelStart": "We answered the most common questions in our",
+        "subLabelMiddle": " Help Center.",
+        "subLabelEnd": " ",
+        "buttonLabel": "Help topic: Contract"
+      },
+      "account2": {
+        "label": "Questions about your account settings?",
+        "subLabelStart": "We answered the most common questions in our",
+        "subLabelMiddle": " Help Center.",
+        "subLabelEnd": " ",
+        "buttonLabel": "Help topic: Account"
+      },
+      "forwardings": {
+        "label": "Issues with your mail forwarding?",
+        "subLabel": "Call the Deutsche Post directly",
+        "buttonLabel": "To the Deutsche Post form",
+        "deutschePostNumber": "0228 4333112"
+      },
+      "originals": {
+        "label": "Here you can find an overview of all your originals!",
+        "subLabel": "You decide what is going to happen to your documents.",
+        "buttonLabel": "Help topic: Originals"
+      }
+    },
+    "locations": {
+      "sent": "Sent",
+      "beingPacked": "Being packed",
+      "returnBasket": "In return basket",
+      "shortTermArchive": "Shortterm-archive",
+      "longTermArchive": "Archive"
+    },
+    "locationFilters": {
+      "beingPacked": "Being packed",
+      "hasBeenSent": "Sent",
+      "hasBeenShredded": "Destroyed",
+      "inReturnBasket": "In return basket",
+      "longTermArchive": "Archive",
+      "returnScheduled": "Next delivery",
+      "shortTermArchive": "Shortterm-archive",
+      "shredBasket": "Original will be destroyed",
+      "longtermArchive": "Archive",
+      "returnBasket": "In return basket"
+    },
+    "paywallNotice": {
+      "title": "No reliable payment method / temporarily blocked",
+      "paragraph1": "Please provide a credit card as a payment method.",
+      "paragraph2": "Then send us a short email to hello@getcaya.com so that we can withdraw all outstanding amounts. We will then unlock you again.",
+      "actionViewInvoices": "See your invoices",
+      "actionAddPaymentMethod": "Enter credit card here",
+      "paragraph3": "If necessary, you can also use PayPal or a direct debit (SEPA) as payment method. However, the activation of the account will then take significantly longer."
+    },
+    "paywallNoticeContract": {
+      "title": "This document arrived without you being a CAYA Customer",
+      "paragraph1": "It arrived either one month after your cancelation or while you are using a free testing account - that is out of our grace period and since you did not pay for the scan we will understandably not show it nor allow you to download it.",
+      "paragraph2": "What can you do now? Please let the person who sent that letter and all others know, that your CAYA postbox is inactive and order you documents home via \"Delivery of Originals\". Alternatively you can also become a CAYA customer by clicking \"Upgrade\".",
+      "actionUpgrade": "Upgrade"
+    },
+    "shreddingModal": {
+      "error": "Something went wrong, please reload the page and try again.",
+      "modalTitle": "Destruction of originals",
+      "point1": {
+        "title": "Original documents will be destroyed after 91 days",
+        "body": "From 1 May 2020, all originals that have been received 91 days or more ago will be destroyed automatically and in compliance with data protection regulations. From now on, this process takes place continuously. This is only about the physical originals. The digital scan will of course remain in your CAYA account."
+      },
+      "point2": {
+        "title": "Manage and return originals",
+        "body1": "Under",
+        "body2": " you can work through all of your originals now and in the future to add them to the next regular bulk shipment (if included in the tariff) if desired. In the case of tariffs without a regular bulk shipment (minimalist, go, business), the documents must be requested by means of an immediate shipment before the destruction date."
+      },
+      "point3": {
+        "title": "Please check that your delivery address is up to date",
+        "body": "Before your next regular return, please always check whether your stored delivery address is still current. If your tariff includes a regular return of documents, please note the following: We will not destroy documents that you have already selected for your next regular delivery, even if the planned shipping date is after the planned destruction date. The destruction of these documents will not be done until the bulk shipment is dispatched. "
+      },
+      "accept": "Accept"
+    },
+    "automaticDestination": {
+      "setupDestination": "Set up automatic forwarding",
+      "activeDestinations": "{{num}} active forwarding(s)",
+      "destinationUpTo": "Set up automatic forwarding for up to {{num}} email addresses.",
+      "addAutoDestination": "Add automatic forwarding",
+      "email": "Email",
+      "validation": {
+        "invalidEmailForField": "Not a valid email address",
+        "fieldRequired": "This is a mandatory field",
+        "optedOutEmail": "This email address can't be forwarded to.",
+        "somethingWentWrong": "Something went wrong. Please try again."
+      }
+    },
+    "upgradePromptBanner": {
+      "free": {
+        "headline": "You have not yet booked a scanning service for your letters",
+        "body": "We make letters as easy as email"
+      },
+      "canceled": {
+        "headline": "You have not yet booked a scanning service for your letters",
+        "body": "We make letters as easy as email"
+      },
+      "upgradeButton": "Upgrade now",
+      "learnMoreButton": "Learn more"
+    },
+    "uploadDocuments": {
+      "minimizeWidget": "Min",
+      "maximizeWidget": "Max",
+      "confirmDismiss": {
+        "okText": "Cancel uploads",
+        "cancelText": "Continue upload",
+        "info": "Upload incomplete. Cancel everything?"
+      },
+      "uploadDocuments": "Upload files",
+      "validFormats": "Valid format: pdf",
+      "maxSize": "Max: 50 MB",
+      "dropHereOr": "Drop PDF files here to upload them",
+      "browse": "or click here to select a file.",
+      "oneFile": "One file",
+      "files": "{{num}} files",
+      "allDone": "Done",
+      "dismissAll": "Hide completed uploads",
+      "uploadStage": {
+        "Completed": "Completed",
+        "FailedProcessing": "Indexing failed",
+        "Pending": "Pending",
+        "Processing": "... indexing OCR"
+      }
+    },
+    "search": {
+      "searchTag": "Search for that tag",
+      "properties": {
+        "from": "Sender",
+        "tag": "Tag",
+        "subject": "Subject",
+        "in": "Folder"
+      },
+      "keywordLabel": {
+        "from": "... only search a \"sender\"",
+        "tag": "... search for a tag",
+        "subject": "... only searching in \"subject\"",
+        "in": "... search folder name",
+        "duplicateError": "Each search property can only be used once. (No AND search)"
+      },
+      "keywordInfo": "Search through all data fields starts by pressing:",
+      "keywordInfoButton": "Enter",
+      "searchOption": "Search"
+    },
+    "cayaEmail": {
+      "action": "Click: Copy PDF upload email address to clipboard",
+      "actionSuccess": "Copied email to clipboard!",
+      "popup": {
+        "header": "You can send PDFs directly into your inbox via email",
+        "text": "Click to copy you personal PDF upload email address"
+      },
+      "dropdown": {
+        "title": "Upload PDFs via email",
+        "subTitle": "Attached PDF that arrive here at your PDF upload email address will be uploaded to your CAYA inbox.",
+        "inputLabel": "PDF upload email address",
+        "info": "Use this email address to forward important documents from your email client and save, pay, edit, backup them in CAYA.\nLimit PDF file size: approx. 24MB / No restriction on senders / Share this address on your own responsibility "
+      },
+      "button": "Upload via email"
+    },
+    "share": {
+      "icon": {
+        "tooltip": {
+          "share": "Share",
+          "managePeople": "Manage people"
+        }
+      },
+      "modal": {
+        "title": {
+          "sharedWith": "Shared with",
+          "shareWithPeople": "Share access via email",
+          "startSharing": "\"Members\" only have access to what you share"
+        },
+        "you": " (Owner)",
+        "input": {
+          "placeholder": "Add people by email",
+          "invalid": {
+            "tooltip": "Invalid email address"
+          }
+        },
+        "recipient": {
+          "status": {
+            "invited": {
+              "label": "Invited",
+              "title": "Invitation sent!",
+              "description": "User has read only access once invitation to CAYA is accepted"
+            },
+            "readonly": {
+              "label": "Read only",
+              "title": "Read only",
+              "description": "User can view, save, download and forward files. ",
+              "higherLevelFolderNote": "User has been granted access through a higher-level folder"
+            },
+            "owner": "Owner",
+            "edit": {
+              "label": "Editing",
+              "title": "Editing",
+              "description": "The user can edit documents",
+              "higherLevelFolderNote": "Right granted via a parent folder"
+            },
+            "write": {
+              "label": "Write",
+              "title": "Write",
+              "description": "User can edit documents",
+              "higherLevelFolderNote": "Write permission granted via a higher level folder"
+            }
+          },
+          "removeAccess": "Remove Access",
+          "goTo": "Go to"
+        },
+        "done": "Done",
+        "inviting": {
+          "send": "Send",
+          "cancel": "Cancel",
+          "textarea": {
+            "placeholder": "Message"
+          }
+        },
+        "permissions": {
+          "viewer": {
+            "name": "Viewer",
+            "description": "\"Read only\" permission means: the file cannot be modified by the permission recipient"
+          },
+          "editor": {
+            "name": "Editor",
+            "description": "Add, edit, move and delete documents"
+          }
+        }
+      },
+      "notification": {
+        "shared": {
+          "success": "Invitation sent!",
+          "error": "Something went wrong :-("
+        },
+        "unshared": {
+          "success": "{{email}} has been removed from the share",
+          "error": "Something went wrong :-(",
+          "contactRemoved": "{{email}} access has been removed"
+        },
+        "paywalled": "Share disabled with active paywall"
+      },
+      "widget": {
+        "title": "Shared with",
+        "shareButtonLabel": "Share",
+        "managePeopleLabel": "Manage access"
+      },
+      "screen": {
+        "table": {
+          "empty": {
+            "title": "No documents or folders have been shared with you",
+            "subtitle": "As soon as a CAYA user shares documents or folders with you, they'll appear here. After reading them you can then copy them into your archive, forward or download them."
+          }
+        }
+      }
+    },
+    "table": {
+      "overlay": {
+        "upload": {
+          "title": "Upload PDFs!",
+          "description": "In CAYA: Merge, sign and edit documents. Pay invoices. Share access. Search & Archive.",
+          "button": "Upload PDFs"
+        },
+        "email": {
+          "title": "Upload PDFs via email",
+          "description": "Forward PDFs by email into your CAYA Inbox! Tooltip: Save your CAYA email address in your email client."
+        },
+        "newFolder": {
+          "title": "Add folder",
+          "description": "Folders create structure. CAYA will make your backoffice paper-free and your worklife care-free. Enjoy!",
+          "button": "Add folder"
+        },
+        "dontShowAgain": "Hide permanently"
+      }
+    },
+    "accessDenied": {
+      "header": "This content is not accessable for you",
+      "subHeader": "The owner of the file didn’t grant you access yet",
+      "backToMyInbox": "To your inbox",
+      "toHelpCenter": " Help Center."
+    },
+    "team": {
+      "users": {
+        "inviteNewUser": "add a team member",
+        "dropdown": {
+          "hasInvite": "Has invite",
+          "deactivated": "Inactive",
+          "reactivateAccount": "Reactivate",
+          "deactivateAccount": "Deactivate",
+          "cancelInvite": "Cancel Invite"
+        },
+        "role": {
+          "Admin": "Admin",
+          "Owner": "Owner",
+          "Member": "Member"
+        },
+        "status": {
+          "invited": {
+            "title": "Invited",
+            "description": "Invitation was sent!"
+          },
+          "active": {
+            "Admin": {
+              "title": "Admin",
+              "description": "has full access to your account"
+            },
+            "Owner": {
+              "title": "Owner",
+              "description": "Owner of the account"
+            },
+            "Member": {
+              "title": "Member",
+              "description": "Can only view or edit documents and folders that have been proactively shared"
+            }
+          }
+        }
+      },
+      "inviteModal": {
+        "title": "Invite user",
+        "inviteUser": "Add User",
+        "cancel": "Cancel",
+        "email": "Email",
+        "roleDescription": {
+          "Admin": "An admin has full access and can see and manage everything just like you. Only exceptions:  cancellation & deactivate the owner's access.",
+          "Member": "A Member can only manage documents and folders that have been shared with them. A Member can’t be upgraded to an Admin later."
+        },
+        "error": {
+          "existingEmail": "You can’t invite a user with an existing CAYA Account. Try a different mail address.",
+          "sometheingWentWrong": "Something went wrong :(",
+          "limitReached": "User limit reached. Ugrade!",
+          "somethingWentWrong": "Unfortunately something went wrong :-("
+        },
+        "upgradePlan": "Upgrade Plan",
+        "invalidPaymentMethod": "add Paymentmethod"
+      },
+      "youArePartOfATeam": {
+        "title": "You are part of a team",
+        "managedBy": "Managed by"
+      },
+      "quotaPricingUpgrade": {
+        "usedSeats": {
+          "users": "User"
+        },
+        "addUserForFree": "Add for free",
+        "addUserFor": "Add user for",
+        "month": "Month",
+        "upgradePlan": "Upgrade plan",
+        "year": "Year",
+        "onetime": "Once"
+      },
+      "notifications": {
+        "invite": {
+          "success": "Successfully invited {{ email }}"
+        },
+        "cancelInvite": {
+          "success": "Successfully cancelled invite for {{ email }}"
+        },
+        "deactivate": {
+          "success": "Successfully deactivated account for {{ email }}"
+        }
+      }
+    },
+    "loading": {
+      "moveToFolder": {
+        "doc": "Moving {{count}} Document(s)",
+        "doc_plural": "Moving {{count}} Document(s)",
+        "folder": "Moving {{count}} Folder",
+        "folder_plural": "Moving {{count}} Folders",
+        "docAndFolder": "Moving {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docsAndFolders": "Moving {{docCount}} Document(s) & {{folderCount}} Folders",
+        "docsAndFolder": "Moving {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docAndFolders": "Moving {{docCount}} Document(s) & {{folderCount}} Folders"
+      },
+      "moveCopiedDocument": {
+        "doc": "Copying {{count}} Document(s)",
+        "doc_plural": "Copying {{count}} Document(s)",
+        "folder": "Copying {{count}} Folder",
+        "folder_plural": "Copying {{count}} Folders",
+        "docAndFolder": "Copying {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docsAndFolders": "Copying {{docCount}} Document(s) & {{folderCount}} Folders",
+        "docsAndFolder": "Copying {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docAndFolders": "Copying {{docCount}} Document(s) & {{folderCount}} Folders"
+      },
+      "download": {
+        "doc": "Downloading {{count}} Document(s)",
+        "doc_plural": "Downloading {{count}} Document(s)",
+        "folder": "Downloading {{count}} Folder",
+        "folder_plural": "Downloading {{count}} Folders",
+        "docAndFolder": "Downloading {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docsAndFolders": "Downloading {{docCount}} Document(s) & {{folderCount}} Folders",
+        "docsAndFolder": "Downloading {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docAndFolders": "Downloading {{docCount}} Document(s) & {{folderCount}} Folders"
+      },
+      "trash": {
+        "doc": "Moving {{count}} Document(s) to Trash",
+        "doc_plural": "Moving {{count}} Document(s) to Trash",
+        "folder": "Moving {{count}} Folder to Trash",
+        "folder_plural": "Moving {{count}} Folders to Trash",
+        "docAndFolder": "Moving {{docCount}} Document(s) & {{folderCount}} Folder to Trash",
+        "docsAndFolders": "Moving {{docCount}} Document(s) & {{folderCount}} Folders to Trash",
+        "docsAndFolder": "Moving {{docCount}} Document(s) & {{folderCount}} Folder to Trash",
+        "docAndFolders": "Moving {{docCount}} Document(s) & {{folderCount}} Folders to Trash "
+      },
+      "deletePermanently": {
+        "doc": "Permantly Deleting {{count}} Document(s)",
+        "doc_plural": "Permantly Deleting {{count}} Document(s)",
+        "folder": "Permantly Deleting {{count}} Folder",
+        "folder_plural": "Permantly Deleting {{count}} Folders",
+        "docAndFolder": "Permantly Deleting {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docsAndFolders": "Permantly Deleting {{docCount}} Document(s) & {{folderCount}} Folders",
+        "docsAndFolder": "Permantly Deleting {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docAndFolders": "Permantly Deleting {{docCount}} Document(s) & {{folderCount}} Folders"
+      },
+      "forwardToIntegration": {
+        "doc": "Forwarding {{count}} Document(s)",
+        "doc_plural": "Forwarding {{count}} Document(s)",
+        "folder": "Forwarding {{count}} Folder",
+        "folder_plural": "Forwarding {{count}} Folders",
+        "docAndFolder": "Forwarding {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docsAndFolders": "Forwarding {{docCount}} Document(s) & {{folderCount}} Folders",
+        "docsAndFolder": "Forwarding {{docCount}} Document(s) & {{folderCount}} Folder",
+        "docAndFolders": "Forwarding {{docCount}} Document(s) & {{folderCount}} Folders"
+      }
+    },
+    "documentDetail3": {
+      "summary": {
+        "subjectFallback": "New document"
+      },
+      "sidebar": {
+        "title": "Overview",
+        "tags": {
+          "title": "Tags",
+          "add": "add",
+          "validation": {
+            "minChars": "Tags must be longer than {{num}} characters",
+            "maxChars": "Tags can't be longer than {{num}} characters",
+            "noDuplicates": "This tag is already added"
+          },
+          "inputPlaceholder": "Add tag",
+          "updateFailed": "There was a problem updating the tag(s)"
+        },
+        "sections": {
+          "information": {
+            "title": "Content",
+            "dataGroups": {
+              "sender": {
+                "title": "Sender",
+                "name": {
+                  "placeholder": "Name",
+                  "errorMessage": "Invalid input"
+                },
+                "email": {
+                  "placeholder": "Email",
+                  "errorMessage": "Not a valid email",
+                  "action": {
+                    "successMessage": "Opening email client"
+                  }
+                },
+                "phoneNumber": {
+                  "placeholder": "Phone number",
+                  "errorMessage": "Not a valid phone number",
+                  "action": {
+                    "successMessage": "Copied!"
+                  }
+                }
+              },
+              "recipient": {
+                "title": "Recipient"
+              },
+              "subject": {
+                "title": "Subject",
+                "placeholder": "Add subject",
+                "errorMessage": "Invalid subject"
+              },
+              "tags": {
+                "title": "Tags"
+              }
+            }
+          },
+          "fileLocation": {
+            "title": "Location"
+          },
+          "share": {
+            "title": "Share"
+          },
+          "statusOriginal": {
+            "title": "Document state"
+          },
+          "integrations": {
+            "title": "Integrations",
+            "action": "Manage integrations"
+          }
+        },
+        "payments": {
+          "title": "Invoicedata",
+          "save": "Save changes",
+          "cancel": "Cancel",
+          "pay": "PayNow",
+          "paymentConsent": {
+            "error": "Currently we can't save your consent. Please try again later.",
+            "step1": {
+              "title": "Please check your payment details in advance.",
+              "sub": "We are not liable for wrongly executed wirements,"
+            },
+            "step2": {
+              "title": "For wiring money login into your online-banking here.",
+              "sub": "We offer this functionality in cooperation with FinTecSystems GmbH. Die FinTecSystems GmbH is regulated by the \"Deutsche Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)\"."
+            },
+            "step3": {
+              "title": "Confirm your wirement via TAN",
+              "sub": "Which TAN process is being used depends on your bank / account. Neither CAYA nor FinTecSystems are saving an online banking access data."
+            },
+            "acceptTermsTitle": "I want to use CAYA PayNow on my own risk.",
+            "acceptTermsSub": "I am aware that i am resposible for checking the payment data. Wirements executed with a TAN can't be called back.",
+            "disclaimer": "Please check payment data before using Pay Now",
+            "empty": "No payment details found",
+            "incomplete": "Not all fields are complete. Please check"
+          },
+          "fintecWidget": {
+            "bankSelectionTitle": "Please choose your bank"
+          },
+          "saveData": {
+            "success": "Saved successfully",
+            "failure": "Payment data could not be saved"
+          },
+          "payDocument": {
+            "successTitle": "Wirement order was sent",
+            "failure": "Unable to execute this order. Please try later",
+            "successText": "Attention: Wirement will be executed by your bank if your account has sufficient funds. Please do doublecheck if it was successfully executed in your banking account."
+          },
+          "fieldValidationError": {
+            "invalidCharsForField": "Entry has invalid characters",
+            "fieldRequired": "Field is required",
+            "maxCharsN": "Should not be longer than {{num}} characters",
+            "minNumN": "Must be longer than {{num}} characters",
+            "reservedWord": "Can't use this word",
+            "maxDecimalsN": "no more than {{num}} decimals",
+            "typeNaN": "Please enter a number",
+            "invalid": {
+              "iban": "Invalid BIC",
+              "bic": "Invalid BIC"
+            },
+            "minCharsN": "Must be longer than {{num}} characters"
+          },
+          "fields": {
+            "recipient": {
+              "label": "Receiver",
+              "placeholder": "Receiver",
+              "empty": "No Receiver"
+            },
+            "bic": {
+              "label": "BIC",
+              "placeholder": "BIC"
+            },
+            "iban": {
+              "label": "IBAN",
+              "placeholder": "IBAN",
+              "empty": "No IBAN"
+            },
+            "reference": {
+              "label": "Reference (max. 140 Charaters)",
+              "placeholder": "Reference",
+              "empty": "No Reference"
+            },
+            "amount": {
+              "label": "Amount (EUR,Ct.)",
+              "placeholder": "Amount",
+              "empty": "Amount empty"
+            }
+          },
+          "paymentComplete": {
+            "failed": {
+              "title": "Connection to  FinTecSystems could not be established",
+              "content": "Unfortunately FinTecSystems / connection to your bank is unresponsive. Please try later."
+            },
+            "succeeded": {
+              "title": "Wirement order sent",
+              "content": "Attention: Wirement will be executed by your bank if your account has sufficient funds. Please do doublecheck if it was successfully executed in your banking account."
+            },
+            "close": "Close"
+          },
+          "modalTitle": {
+            "consent": "Pay now with CAYA",
+            "payment": "Execute wiretransfer"
+          },
+          "editDetails": "Edit details",
+          "details": "Invoice data"
+        },
+        "simultaneousEdit": {
+          "title": "Someone updated this with:",
+          "subtitle": "You can accept or reject their changes and save your own",
+          "accept": "Accept",
+          "reject": "Save your own"
+        }
+      }
+    }
+  },
+  "helpdeskLinks": {
+    "accountTariffs": "https://faq.getcaya.com/hc/de/sections/360003363399-Tarife-Vertrag-Abrechnung",
+    "accountInfo": "https://faq.getcaya.com/hc/de/sections/360003315840-Account-Persönliche-Angaben",
+    "forwardings": "https://www.dhl.de/content/dpks/de/themenauswahl/kundenservice-formulare/f13.html",
+    "returns": "https://faq.getcaya.com/hc/de/sections/360003363419-Sofort-Sammelsendungen",
+    "coronaInfo": "https://faq.getcaya.com/hc/de/articles/360012770819"
+  },
+  "avatar": {
+    "count": "{{formattedCount}} people"
+  },
+  "errors": {
+    "generic": "Error",
+    "email": {
+      "alreadyExists": "Email address already exists",
+      "invalidFormat": "Invalid email address"
+    }
+  },
+  "badges": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "new": "New",
+    "available": "Available",
+    "beta": "BETA"
+  },
+  "summary": {
+    "from": "Sender",
+    "to": "To:",
+    "collapse": "Minimize",
+    "expand": "Expand"
+  },
+  "shareMembers": {
+    "teamMemberCard": {
+      "header": "You are part of a team",
+      "managedBy": "Managed by"
+    },
+    "successModal": {
+      "header": "Start sharing folders and documents!",
+      "paragraph": "\"Members\" cannot look into your account. They have their own separate account and can only see the files and folders that you explicitly shared with them. You manage the access of your \"Members\". Meaning if you deactivate a member's account, they will lose access to all documents shared in CAYA with them."
+    }
+  },
+  "workflows": {
+    "activation-modal": {
+      "banner": {
+        "description": "After that date this feature will become only available in our Standard & Professional plans. We will inform you soon what you need to do to continue using Workflows after this BETA launch period. With this Beta you are not agreeing to additional costs nor an upgrade. This choice will be yours after the BETA. If you already know you want to keep our workflows automagic, then contact us how to upgrade. (If you are already in our Standard or Professional plans then the feature will simply stay switched on.)",
+        "headline": "Workflows is in free Beta until September 1, 2022 for everyone!"
+      },
+      "call-to-action-activate": "Explore Workflows",
+      "call-to-action-upgrade": "Upgrade now",
+      "description": "Choose from powerful automation recipes from our library and connect with your favorite tools with ease. We want to give you the chance to find out how Workflows can simplify your life.\nWe welcome your feedback and ideas on how to make your document management smarter.",
+      "header": "Automate your documents with \"Workflows\"",
+      "terms-of-use": "By clicking \"Explore Workflows\" feature, you agree that we share certain data with our automation partner Workato and with the the integrations you choose to setup workflows with. Our Workato product is running in a EU data center. You can find the Terms of Use you agree to with Workato here: <0>Terms of Use</0>",
+      "title": "You’re invited to join the Workflows BETA for free",
+      "activation-error": "Oops!... Something went wrong while trying to accept Workflows terms and conditions. Please reload or try again later."
+    },
+    "tabs": {
+      "beta": {
+        "badgeContent": "BETA free till 01.09.2022",
+        "badgeTooltip": "Try out our Standard Workflows! We add automagic to your documents! \\n\nOur automagic Standard Workflows will be free of charge until 1st of September. Then the BETA ends. \\n\nAfter that, the function will only be available in Standard & Professional plans or for customers who book \"Custom Workflows\" via Customer Success."
+      },
+      "connections": "Manage connections",
+      "usage": "Usage Overview",
+      "workflows": "Active Workflows",
+      "explore": "Create Standard Workflows"
+    },
+    "accountSelection": {
+      "add": "Add account"
+    },
+    "connectionCard": {
+      "alert": "Establish permanent connection via login so your workflows can work",
+      "connectWith": "Establish permanent connection to",
+      "settingsMenu": {
+        "configure": "Manage",
+        "rename": "Rename",
+        "remove": "Delete Connection"
+      },
+      "renameModal": {
+        "title": "Rename Connection",
+        "label": "Connection name",
+        "ctaRename": "rename",
+        "ctaCancel": "Cancel"
+      },
+      "configureModal": {
+        "title": "Establish Connection"
+      },
+      "connectionModal": {
+        "title": "Establish connection permanently"
+      }
+    },
+    "workflowCard": {
+      "renameModal": {
+        "title": "Rename Workflow",
+        "label": "Workflow Name",
+        "placeholder": "A unique name helps to identify the workflow",
+        "ctaRename": "Rename",
+        "ctaCancel": "Cancel"
+      }
+    },
+    "connectionsTab": {
+      "header": "Manage permanent access to necessary connections for workflows",
+      "subheader": "Please don't be surprised: You have to log in to your Caya account again here. After that, the system can only work.\nOther necessary connections to tools other than Caya will also be set up here. However, you start this process in the \"Standard Workflows\" overview. \\n\nPlease click on the \"Connect\" and \"Inactive Connections\" buttons and establish the connections to the respective accounts. \\n\nFor your information: \\n\nHere you manage all the access rights necessary for your automations. If the access data to Caya and the other necessary software is not currently stored here, we cannot automate anything. Your access data is stored for us in a so-called \"black box\", i.e. this access data is completely inaccessible to us and encrypted on a European server, so we cannot see it."
+    },
+    "exploreTab": {
+      "exploreBanner": {
+        "header": "Explore our Standard Workflows library",
+        "description": "Select workflows from the library and boost your productivity"
+      }
+    },
+    "workflows-screen": {
+      "title": "Your created workflows (please press \"Start\" to activate them)",
+      "browse": "Browse all available workflows",
+      "empty": {
+        "title": "You have not setup any workflows for automations yet",
+        "subtitle": "Your active Workflows are shown here. To create new Standard Workflows go to that section"
+      },
+      "delete": {
+        "title": "Delete Workflow",
+        "description": "Are you sure you want to permanently delete this workflow? You can set it up again any time.",
+        "submit": "Delete"
+      },
+      "errors": {
+        "generic": "There was an error",
+        "code": "Error - {{errorCode}}"
+      },
+      "status": {
+        "stopped": "Stopped",
+        "running": "Active",
+        "paused": "Inactive"
+      }
+    },
+    "account-selection": {
+      "add": "Add account"
+    },
+    "connection-card": {
+      "alert": "Create permanent connection by login into your account so automations can be executed in the future",
+      "connect-with": "Establish connection to",
+      "settings-menu": {
+        "configure": "Configure",
+        "rename": "Rename",
+        "remove": "Delete connection"
+      },
+      "modal": {
+        "rename": {
+          "title": "Rename Connection",
+          "label": "Name Connection",
+          "buttons": {
+            "rename": "Rename",
+            "cancel": "Cancel"
+          },
+          "validation": "Name already exists"
+        },
+        "connection": {
+          "title": "Manage connection"
+        },
+        "configure": {
+          "title": "Configure connection"
+        }
+      }
+    },
+    "workflow-card": {
+      "actions": {
+        "configure": "Configure",
+        "rename": "Rename",
+        "duplicate": "Duplicate",
+        "start": "Start",
+        "stop": "Stop",
+        "remove": "Remove"
+      },
+      "setup": "Setup",
+      "modal": {
+        "rename": {
+          "title": "Rename Workflow",
+          "label": "Name this Workflow",
+          "placeholder": "This name helps you identify the connection",
+          "buttons": {
+            "rename": "Rename",
+            "cancel": "Cancel"
+          }
+        }
+      }
+    },
+    "connections-screen": {
+      "header": "Permanent connections to your apps & accounts are needed so your automations can be executed",
+      "subheader": "Please don't be surprised: You have to log in to your Caya account again here. After that, the system can only work.\nOther necessary connections to tools other than Caya will also be set up here. However, you start this process in the \"Standard Workflows\" overview. \\n\nPlease click on the \"Connect\" and \"Inactive Connections\" buttons and establish the connections to the respective accounts. \\n\nFor your information: \\n\nHere you manage all the access rights necessary for your automations. If the access data to Caya and the other necessary software is not currently stored here, we cannot automate anything. Your access data is stored for us in a so-called \"black box\", i.e. this access data is completely inaccessible to us and encrypted on a European server, so we cannot see it.",
+      "successfully-connected": "Connection established",
+      "successfully-disconnected": "Disconnected connection!",
+      "caya-auto-connection-modal": "Please login into your Caya account (here again). Our automation plattform needs access to your Caya account and you need to give it by clicking \"connect\" and loging in with your Caya credentials."
+    },
+    "explore-screen": {
+      "error": "Oops, something went wrong. Reload the page?",
+      "banner": {
+        "header": "Here you can explore our \"Standard Workflows\".\\nThis library will continue to grow...",
+        "description": "We divide \"Standard Workflows\" into three parts:\\n\n(1) Automatically upload PDF documents from other tools to Caya's inbox - \"Automatic Upload to Caya inbox\"\\n\n(2) Distribute PDF documents from Caya to other tools - \"Automatic Distribution to the Outside\"\\n\n(3) Move documents within Caya - \"Automatic Distribution Internally\"\\n\nWe'll be adding more workflows soon. Today you can discover and set up the following smart automations here:"
+      }
+    },
+    "new-workflow-screen": {
+      "headline": "Create a workflow",
+      "buttons": {
+        "back": "Back to our Standard Workflows",
+        "activate": "Create Workflow"
+      },
+      "validation": {
+        "name": "Workflow name is unique",
+        "connection": "Connection name must be unique!"
+      },
+      "errors": {
+        "EMPTY_APPLICATION_NAME": "Connection name is empty",
+        "EMPTY_NAME": "Workflow name is empty",
+        "NAME_EXISTS": "Workflow name already exists",
+        "GENERAL_ERROR": "Unhandled error might be network... Reload the page and retry might work.",
+        "INVALID_APPLICATION": "Given application connection name is not supported.",
+        "FAll_BACK": "Oops... something went wrong while trying to create a workflow."
+      },
+      "fields": {
+        "name": {
+          "title": "Name your workflow:",
+          "placeholder": "Workflow name"
+        },
+        "connections": {
+          "title": "The following connections are needed:",
+          "subtitle": "If a necessary connection still has to be created for the first time, you will be redirected to the connections page to do so and later continue here again. Click on your connection using the arrows on the right:",
+          "modal": {
+            "title": "You are creating a new connection",
+            "cancel": "Cancel",
+            "submit": "Continue",
+            "label": "Name of the connection",
+            "banner": {
+              "help": {
+                "headline": "Please give this Connection a specific name",
+                "description": "If you want to change the name of your connection at a later point you can do so 😉"
+              },
+              "next": {
+                "headline": "What happens next? ",
+                "description": "You will now be redirected to the `Connections` page where you will have to sign in to the provider you want to connect to. \nAfter setting the 'Connection' up you will have to come back here to set up this Workflow again, you will then be able to select the connection you just created. We are sorry for this back and forth, it is a temporary inconvenience. We are working on a better solution."
+              }
+            }
+          }
+        },
+        "parameters": {
+          "title": "Create the workflow parameters",
+          "subtitle": "Not all workflows require parameters other than the correct connections. \\n \nIf further parameters are needed, configure them here. \\n \nThen press \"Create workflow\" and finally start the configured workflow under \"Active workflows\"."
+        }
+      }
+    },
+    "edit-workflow-screen": {
+      "buttons": {
+        "back": "Back to workflows",
+        "update": "Save & Update Workflow"
+      },
+      "fields": {
+        "connections": {
+          "title": "Active Connections",
+          "subtitle": "The apps you need to setup & connect for this workflow:",
+          "banner": {
+            "headline": "If you update the Connection, please remember to edit the workflow you want it used in or setup a new workflow with it.",
+            "description": "The permanent access to third party services necessary for your autmations in 'Active Connections'"
+          }
+        }
+      }
+    },
+    "application-name": {
+      "caya_connector": "Your Caya Account",
+      "outlook": "Outlook",
+      "gmail": "GMail",
+      "google_drive": "GDrive",
+      "onedrive": "OneDrive"
+    }
+  },
+  "rebrandLaunch": {
+    "header": "Where did the bird go?",
+    "paragraph1": "We make your everyday life paperless, that's our roots and we are happy to simplify the lives of our customers. And at the same time, the Caya Document Cloud can do so much more by now!",
+    "paragraph2": "Caya has become the central document cockpit for many of our customers.",
+    "bullet1": "Documents come alive with us and can be organized, processed and even paid for quickly.",
+    "bullet2": "You can map processes in the archive in Caya and collaborate with multiple people on these folders and documents.",
+    "bullet3": "World-class OCR and data recognition provide unparalleled insight into documents (even without opening them) and is now becoming the basis for true automation.",
+    "bullet4": "Starting today, we'll begin enabling you to automate steps in your standard workflows. More info on that coming soon.",
+    "paragraph3": "We want to reflect the great development of the Caya Document Cloud with <strong>our new brand identity</strong>. We want to convey the joy we have in taking real work off our customers' shoulders.",
+    "paragraph4": "Thank you very much for our relationship so far! We hope you like our new website as much as we do. Please take a look at our new website at <0>caya.com/de</0>. We are extremely excited to hear your feedback! For us, the new Caya is true Automagic!"
+  },
+  "automagic": {
+    "activationModal": {
+      "modalHeader": "",
+      "invitation": "",
+      "paragraph": "",
+      "termsOfUse": "",
+      "addPaymentMethod": "",
+      "activateAutomagic": "",
+      "infoBoxTitle": "",
+      "infoBoxParagraph": "",
+      "bannerTitle": "",
+      "bannerParagraph": ""
+    },
+    "tabs": {
+      "beta": {
+        "badgeContent": "",
+        "badgeTooltip": ""
+      },
+      "connectedApps": "",
+      "usage": ""
+    },
+    "accountSelection": {
+      "add": ""
+    },
+    "connectionCard": {
+      "alert": "",
+      "connectWith": "",
+      "settingsMenu": {
+        "configure": "",
+        "rename": "",
+        "remove": ""
+      },
+      "renameModal": {
+        "title": "",
+        "label": "",
+        "ctaRename": "",
+        "ctaCancel": ""
+      },
+      "configureModal": {
+        "title": ""
+      },
+      "connectionModal": {
+        "title": ""
+      }
+    },
+    "workflowCard": {
+      "renameModal": {
+        "title": "",
+        "label": "",
+        "placeholder": "",
+        "ctaRename": "",
+        "ctaCancel": ""
+      }
+    },
+    "connectionsTab": {
+      "header": "",
+      "subheader": ""
+    }
+  }
+}
