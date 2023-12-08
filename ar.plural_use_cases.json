@@ -1,0 +1,81 @@
+{
+    "mftest": "في {lang} يوجد {NUM, plural,one{ هو واحد لـ #}other{ الآخرين لـ #}}",
+    "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "يجب أن تتجاهل\n مستقل | مختلطة مع\n خطوط جديدة 42 | القيمة - 42",
+    "Standalone | 42 symbol somewhere | in the text | 1| 0": "مستقل | 42 رمز في مكان ما | في النص | 1| 0",
+    "Hello {{{name}}}": "مرحبا {{{name}}}",
+    "few sentences. with .": "جمل قليلة مع نقطة",
+    "last character is .": "الحرف الأخير هو نقطة",
+    ". is first character": "النقطة هي الحرف الأول",
+    "repeated argument": "%1$s ، %1$s ، %1$s",
+    "ordered arguments with numbers": "%2$d ثم %1$s ثم %3$.2f",
+    "ordered arguments": "%2$s ثم %1$s",
+    "nested.deep.plural": "{nested.deep.plural, plural, zero {} one {متداخلة.عميق.الجمع} two {} few {} many {} other {1}}",
+    "another": {
+        "nested": {
+            "extra": {
+                "mustacheprintf": {
+                    "example": "[0] %s هي قاعدة صفرية لـ {{me}} |[2,5] %s تقع بين اثنين وخمسة (مضمنة) لـ {{me}} | وقاعدة شاملة لـ {{me}} للحصول على %s"
+                },
+                "mustache": {
+                    "example": "[0] قاعدة صفر لـ {{me}} |[2,5] اثنان إلى خمسة (مضمنة) لـ {{me}} | وقاعدة شاملة لـ {{me}}"
+                },
+                "lazy": {
+                    "example": "{another::nested::extra::lazy::example, plural, zero {} one {} two {} few {} many {} other {[0] قاعدة صفر|[2,5] اثنان إلى خمسة (مضمنة)|وقاعدة شاملة}}"
+                },
+                "deep": {
+                    "example": "{another::nested::extra::deep::example, plural, zero {} one {القاعدة الافتراضية \"واحد\".} two {} few {} many {} other {[0] قاعدة صفر|[2,5] اثنان إلى خمسة (مضمنة)|وقاعدة شاملة}}"
+                }
+            }
+        }
+    },
+    "greeting": {
+        "plurals": "{greeting::plurals, plural, zero {} one {القاعدة الافتراضية \"واحد\".} two {} few {} many {} other {[0] قاعدة صفر|[2,5] اثنان إلى خمسة (مضمنة)|وقاعدة شاملة}}",
+        "placeholder": {
+            "loud": "تحية.placeholder.loud",
+            "informal": "%s",
+            "formal": "مرحبًا %s"
+        },
+        "informal": "أهلاً",
+        "formal": "مرحبًا"
+    },
+    "format": {
+        "time": "ح:د:ث ث أ",
+        "date": "ش ش\/ي ي\/س س س س"
+    },
+    "Hello {{name}}, how was your %s?": "مرحبًا {{name}} ، كيف كان %s الخاص بك؟",
+    "Hello {{name}}": "مرحبا {{name}}",
+    "Hello %s": "مرحبًا %s",
+    "plurals from eternity": "[,0] وُلد هذا قبل فترة طويلة | ولكن فقط 0",
+    "plurals to eternity": "[0,] سيستمر هذا إلى الأبد|ولكن فقط gt 0",
+    "plurals in any order": "{plurals in any order, plural, zero {} one {القاعدة الافتراضية \"واحد\".} two {} few {} many {} other {[0] قاعدة صفر|وقاعدة شاملة|[2،5] من اثنين إلى خمسة (مضمنة)}}",
+    "plurals with intervals as string (excluded)": "{plurals with intervals as string (excluded), plural, zero {} one {القاعدة الافتراضية \"واحد\".} two {} few {} many {} other {[0] قاعدة صفر|]2,5[ اثنان إلى خمسة (مستبعد)|وقاعدة شاملة}}",
+    "plurals with intervals as string": "{plurals with intervals as string, plural, zero {} one {القاعدة الافتراضية \"واحد\".} two {} few {} many {} other {[0] قاعدة صفر|[2,5] اثنان إلى خمسة (مضمنة)|وقاعدة شاملة}}",
+    "plurals with intervals in _other_ missing _one_": "{plurals with intervals in _other_ missing _one_, plural, zero {} one {} two {} few {} many {} other {[0] قاعدة صفر|[2,5] اثنان إلى خمسة (مضمنة)|وقاعدة شاملة}}",
+    "plurals with intervals in string (no object)": "[0] قاعدة صفر|[2,5] اثنان إلى خمسة (مضمنة)|وقاعدة شاملة",
+    "There is one monkey in the tree": "{There is one monkey in the tree, plural, zero {} one {هناك قرد واحد في الشجرة} two {} few {} many {} other {يوجد %d قرد في الشجرة}}",
+    "There is one monkey in the %s": "{There is one monkey in the %s, plural, zero {} one {يوجد قرد واحد في %s} two {} few {} many {} other {يوجد %d قرود في %s}}",
+    "tree": "شجرة",
+    "There is one monkey in the %%s": "{There is one monkey in the %%s, plural, zero {} one {يوجد قرد واحد في %% s} two {} few {} many {} other {يوجد %d قرود في %% s}}",
+    "nested": {
+        "path": {
+            "sub": "متداخلة.path.sub"
+        },
+        "deep": {
+            "plural": "{nested::deep::plural, plural, zero {} one {جمع} two {} few {} many {} other {صيغ الجمع}}"
+        }
+    },
+    "cats": {
+        "n": "{cats::n, plural, zero {} one {قطة %s} two {} few {} many {} other {%s قطط}}"
+    },
+    "cat": "{cat, plural, zero {} one {قطة %s} two {} few {} many {} other {%s قطط}}",
+    "%s star": "{%s star, plural, zero {} one {%s نجمة} two {} few {} many {} other {%s نجوم}}",
+    "%d star": "{%d star, plural, zero {} one {%d نجمة} two {} few {} many {} other {%d نجمة}}",
+    "%f star": "{%f star, plural, zero {} one {%f نجمة} two {} few {} many {} other {%f نجوم}}",
+    "%s cat": "{%s cat, plural, zero {} one {قطة %s} two {} few {} many {} other {%s قطط}}",
+    "Howdy": "مرحبًا",
+    "Hi": "أهلاً",
+    "Hello %s, how are you today? How was your %s.": "مرحبًا %s ، كيف حالك اليوم؟ كيف كانت %s .",
+    "weekend": "عطلة نهاية الاسبوع",
+    "Hello %s, how are you today?": "مرحبًا %s ، كيف حالك اليوم؟",
+    "Hello": "مرحبًا"
+}
