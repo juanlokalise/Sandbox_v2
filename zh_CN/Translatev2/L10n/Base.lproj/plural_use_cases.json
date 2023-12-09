@@ -1,0 +1,81 @@
+{
+    "mftest": "在{lang}中，有{NUM, plural,one{ 1 代表#}other{ other 代表#}}",
+    "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "应该忽略\n独立 |夹杂\n新行 42 |值 - 42",
+    "Standalone | 42 symbol somewhere | in the text | 1| 0": "独立| 42 某处符号 |在文中| 1| 0",
+    "Hello {{{name}}}": "你好{{{name}}}",
+    "few sentences. with .": "带点的几句话",
+    "last character is .": "最后一个字符是点",
+    ". is first character": "点是第一个字符",
+    "repeated argument": "%1$s 、 %1$s 、 %1$s",
+    "ordered arguments with numbers": "%2$d然后%1$s然后%3$.2f",
+    "ordered arguments": "%2$s然后%1$s",
+    "nested.deep.plural": "{nested.deep.plural, plural, other {{nested.deep.plural, plural, other {1}}}}",
+    "another": {
+        "nested": {
+            "extra": {
+                "mustacheprintf": {
+                    "example": "[0] %s是{{me}}的零规则 |[2,5] %s是{{me}}的 2 到 5（含）之间的规则 |以及{{me}}包罗万象的规则来获取我的号码%s"
+                },
+                "mustache": {
+                    "example": "[0] {{me}}的零规则 |[2,5] {{me}}的二到五（包括在内）和{{me}}的包罗万象的规则"
+                },
+                "lazy": {
+                    "example": "{another::nested::extra::lazy::example, plural, other {{another::nested::extra::lazy::example, plural, other {[0] 零规则|[2,5] 二到五（包括）| 和包罗万象的规则}}}}"
+                },
+                "deep": {
+                    "example": "{another::nested::extra::deep::example, plural, other {{another::nested::extra::deep::example, plural, other {[0] 零规则|[2,5] 二到五（包括）| 和包罗万象的规则}}}}"
+                }
+            }
+        }
+    },
+    "greeting": {
+        "plurals": "{greeting::plurals, plural, other {{greeting::plurals, plural, other {[0] 零规则|[2,5] 二到五（包括）| 和包罗万象的规则}}}}",
+        "placeholder": {
+            "loud": "问候.占位符.大声",
+            "informal": "嗨%s",
+            "formal": "你好%s"
+        },
+        "informal": "你好",
+        "formal": "你好"
+    },
+    "format": {
+        "time": "时:分:秒",
+        "date": "月\/日\/年"
+    },
+    "Hello {{name}}, how was your %s?": "您好， {{name}} ，您的%s怎么样？",
+    "Hello {{name}}": "你好{{name}}",
+    "Hello %s": "你好%s",
+    "plurals from eternity": "[,0] 这很久以前就诞生了|但只有 lt 0",
+    "plurals to eternity": "[0,]这将永远持续|但只有gt 0",
+    "plurals in any order": "{plurals in any order, plural, other {{plurals in any order, plural, other {[0] 零规则|和包罗万象的规则|[2,5] 二到五（包含）}}}}",
+    "plurals with intervals as string (excluded)": "{plurals with intervals as string (excluded), plural, other {{plurals with intervals as string (excluded), plural, other {[0] 零规则|]2,5[ 两到五（排除）|和包罗万象的规则}}}}",
+    "plurals with intervals as string": "{plurals with intervals as string, plural, other {{plurals with intervals as string, plural, other {[0] 零规则|[2,5] 二到五（包括）| 和包罗万象的规则}}}}",
+    "plurals with intervals in _other_ missing _one_": "{plurals with intervals in _other_ missing _one_, plural, other {{plurals with intervals in _other_ missing _one_, plural, other {[0] 零规则|[2,5] 二到五（包括）| 和包罗万象的规则}}}}",
+    "plurals with intervals in string (no object)": "[0] 零规则|[2,5] 二到五（包括）| 和包罗万象的规则",
+    "There is one monkey in the tree": "{There is one monkey in the tree, plural, other {{There is one monkey in the tree, plural, other {树上有%d只猴子}}}}",
+    "There is one monkey in the %s": "{There is one monkey in the %s, plural, other {{There is one monkey in the %s, plural, other {%s有%d只猴子}}}}",
+    "tree": "树",
+    "There is one monkey in the %%s": "{There is one monkey in the %%s, plural, other {{There is one monkey in the %%s, plural, other {%% s中有%d只猴子}}}}",
+    "nested": {
+        "path": {
+            "sub": "嵌套路径.sub"
+        },
+        "deep": {
+            "plural": "{nested::deep::plural, plural, other {{nested::deep::plural, plural, other {复数}}}}"
+        }
+    },
+    "cats": {
+        "n": "{cats::n, plural, other {{cats::n, plural, other {%s只猫}}}}"
+    },
+    "cat": "{cat, plural, other {{cat, plural, other {%s只猫}}}}",
+    "%s star": "{%s star, plural, other {{%s star, plural, other {%s星星}}}}",
+    "%d star": "{%d star, plural, other {{%d star, plural, other {%d颗星}}}}",
+    "%f star": "{%f star, plural, other {{%f star, plural, other {%f颗星星}}}}",
+    "%s cat": "{%s cat, plural, other {{%s cat, plural, other {%s只猫}}}}",
+    "Howdy": "你好",
+    "Hi": "你好",
+    "Hello %s, how are you today? How was your %s.": "你好%s ，今天怎么样？你的%s怎么样？",
+    "weekend": "周末",
+    "Hello %s, how are you today?": "你好%s ，今天怎么样？",
+    "Hello": "你好"
+}
