@@ -1,0 +1,81 @@
+{
+    "mftest": "In {lang} there {NUM, plural,one{is one for #}other{others for #}}",
+    "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "should ignore \n standalone | mixed with \n new lines 42 | value - 42",
+    "Standalone | 42 symbol somewhere | in the text | 1| 0": "Standalone | 42 symbol somewhere | in the text | 1| 0",
+    "Hello {{{name}}}": "Hello {{{name}}}",
+    "few sentences. with .": "few sentences with Dot",
+    "last character is .": "last character is Dot",
+    ". is first character": "Dot is first character",
+    "repeated argument": "%1$s, %1$s, %1$s",
+    "ordered arguments with numbers": "%2$d then %1$s then %3$.2f",
+    "ordered arguments": "%2$s then %1$s",
+    "nested.deep.plural": "{nested.deep.plural, plural, one {{nested.deep.plural, plural, one {nested.deep.plural} other {1}}} other {}}",
+    "another": {
+        "nested": {
+            "extra": {
+                "mustacheprintf": {
+                    "example": "[0] %s is zero rule for {{me}}|[2,5] %s is between two and five (included) for {{me}}|and a catchall rule for {{me}} to get my number %s"
+                },
+                "mustache": {
+                    "example": "[0] a zero rule for {{me}}|[2,5] two to five (included) for {{me}}|and a catchall rule for {{me}}"
+                },
+                "lazy": {
+                    "example": "{another::nested::extra::lazy::example, plural, one {{another::nested::extra::lazy::example, plural, one {} other {[0] a zero rule|[2,5] two to five (included)|and a catchall rule}}} other {}}"
+                },
+                "deep": {
+                    "example": "{another::nested::extra::deep::example, plural, one {{another::nested::extra::deep::example, plural, one {The default 'one' rule} other {[0] a zero rule|[2,5] two to five (included)|and a catchall rule}}} other {}}"
+                }
+            }
+        }
+    },
+    "greeting": {
+        "plurals": "{greeting::plurals, plural, one {{greeting::plurals, plural, one {The default 'one' rule} other {[0] a zero rule|[2,5] two to five (included)|and a catchall rule}}} other {}}",
+        "placeholder": {
+            "loud": "greeting.placeholder.loud",
+            "informal": "Hi %s",
+            "formal": "Hello %s"
+        },
+        "informal": "Hi",
+        "formal": "Hello"
+    },
+    "format": {
+        "time": "h:mm:ss a",
+        "date": "MM\/DD\/YYYY"
+    },
+    "Hello {{name}}, how was your %s?": "Hello {{name}}, how was your %s?",
+    "Hello {{name}}": "Hello {{name}}",
+    "Hello %s": "Hello %s",
+    "plurals from eternity": "[,0] this was born long before|but only lt 0",
+    "plurals to eternity": "[0,] this will last forever|but only gt 0",
+    "plurals in any order": "{plurals in any order, plural, one {{plurals in any order, plural, one {The default 'one' rule} other {[0] a zero rule|and a catchall rule|[2,5] two to five (included)}}} other {}}",
+    "plurals with intervals as string (excluded)": "{plurals with intervals as string (excluded), plural, one {{plurals with intervals as string (excluded), plural, one {The default 'one' rule} other {[0] a zero rule|]2,5[ two to five (excluded)|and a catchall rule}}} other {}}",
+    "plurals with intervals as string": "{plurals with intervals as string, plural, one {{plurals with intervals as string, plural, one {The default 'one' rule} other {[0] a zero rule|[2,5] two to five (included)|and a catchall rule}}} other {}}",
+    "plurals with intervals in _other_ missing _one_": "{plurals with intervals in _other_ missing _one_, plural, one {{plurals with intervals in _other_ missing _one_, plural, one {} other {[0] a zero rule|[2,5] two to five (included)|and a catchall rule}}} other {}}",
+    "plurals with intervals in string (no object)": "[0] a zero rule|[2,5] two to five (included)|and a catchall rule",
+    "There is one monkey in the tree": "{There is one monkey in the tree, plural, one {{There is one monkey in the tree, plural, one {There is one monkey in the tree} other {There are %d monkeys in the tree}}} other {}}",
+    "There is one monkey in the %s": "{There is one monkey in the %s, plural, one {{There is one monkey in the %s, plural, one {There is one monkey in the %s} other {There are %d monkeys in the %s}}} other {}}",
+    "tree": "tree",
+    "There is one monkey in the %%s": "{There is one monkey in the %%s, plural, one {{There is one monkey in the %%s, plural, one {There is one monkey in the %%s} other {There are %d monkeys in the %%s}}} other {}}",
+    "nested": {
+        "path": {
+            "sub": "nested.path.sub"
+        },
+        "deep": {
+            "plural": "{nested::deep::plural, plural, one {{nested::deep::plural, plural, one {plural} other {plurals}}} other {}}"
+        }
+    },
+    "cats": {
+        "n": "{cats::n, plural, one {{cats::n, plural, one {%s cat} other {%s cats}}} other {}}"
+    },
+    "cat": "{cat, plural, one {{cat, plural, one {%s cat} other {%s cats}}} other {}}",
+    "%s star": "{%s star, plural, one {{%s star, plural, one {%s star} other {%s stars}}} other {}}",
+    "%d star": "{%d star, plural, one {{%d star, plural, one {%d star} other {%d stars}}} other {}}",
+    "%f star": "{%f star, plural, one {{%f star, plural, one {%f star} other {%f stars}}} other {}}",
+    "%s cat": "{%s cat, plural, one {{%s cat, plural, one {%s cat} other {%s cats}}} other {}}",
+    "Howdy": "Howdy",
+    "Hi": "Hi",
+    "Hello %s, how are you today? How was your %s.": "Hello %s, how are you today? How was your %s.",
+    "weekend": "weekend",
+    "Hello %s, how are you today?": "Hello %s, how are you today?",
+    "Hello": "Hello"
+}
