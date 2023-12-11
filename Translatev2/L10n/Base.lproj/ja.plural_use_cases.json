@@ -1,0 +1,81 @@
+{
+    "mftest": "{lang}には{NUM, plural,one{は#}other{ものは#}}があります",
+    "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "無視すべきです\nスタンドアロン |と混合\n改行 42 |値 - 42",
+    "Standalone | 42 symbol somewhere | in the text | 1| 0": "スタンドアロン | 42 どこかのシンボル |本文中 | 1| 0",
+    "Hello {{{name}}}": "こんにちは{{{name}}}",
+    "few sentences. with .": "ドットを使ったいくつかの文",
+    "last character is .": "最後の文字はドットです",
+    ". is first character": "ドットは最初の文字です",
+    "repeated argument": "%1$s 、 %1$s 、 %1$s",
+    "ordered arguments with numbers": "%2$d 、その後%1$sその後%3$.2f",
+    "ordered arguments": "%2$s次に%1$s",
+    "nested.deep.plural": "{nested.deep.plural, plural, other {{nested.deep.plural, plural, other {1}}}}",
+    "another": {
+        "nested": {
+            "extra": {
+                "mustacheprintf": {
+                    "example": "[0] %s {{me}}のゼロ ルールです |[2,5] %sは{{me}} 2 から 5 の間 (含まれます) |および{{me}}が私のデータを取得するための包括的なルールです番号%s"
+                },
+                "mustache": {
+                    "example": "[0] {{me}}のゼロ ルール |[2,5] {{me}}の 2 から 5 (含む) |および{{me}}のキャッチオール ルール"
+                },
+                "lazy": {
+                    "example": "{another::nested::extra::lazy::example, plural, other {{another::nested::extra::lazy::example, plural, other {[0] ゼロ ルール|[2,5] 2 から 5 (含む)|およびキャッチオール ルール}}}}"
+                },
+                "deep": {
+                    "example": "{another::nested::extra::deep::example, plural, other {{another::nested::extra::deep::example, plural, other {[0] ゼロ ルール|[2,5] 2 から 5 (含む)|およびキャッチオール ルール}}}}"
+                }
+            }
+        }
+    },
+    "greeting": {
+        "plurals": "{greeting::plurals, plural, other {{greeting::plurals, plural, other {[0] ゼロ ルール|[2,5] 2 から 5 (含む)|およびキャッチオール ルール}}}}",
+        "placeholder": {
+            "loud": "挨拶.プレースホルダー.大声で",
+            "informal": "彼%s",
+            "formal": "こんにちは%s"
+        },
+        "informal": "こんにちは",
+        "formal": "こんにちは"
+    },
+    "format": {
+        "time": "時:mm:ss",
+        "date": "YYYY\/MM\/DD"
+    },
+    "Hello {{name}}, how was your %s?": "こんにちは、 {{name}} 、 %sはどうでしたか？",
+    "Hello {{name}}": "こんにちは{{name}}",
+    "Hello %s": "こんにちは%s",
+    "plurals from eternity": "[,0] これはずっと前に生まれました|ただし 0 だけです",
+    "plurals to eternity": "[0,] これは永遠に続きます|ただし gt 0 だけです",
+    "plurals in any order": "{plurals in any order, plural, other {{plurals in any order, plural, other {[0] ゼロ ルール|およびキャッチオール ルール|[2,5] 2 から 5 (含む)}}}}",
+    "plurals with intervals as string (excluded)": "{plurals with intervals as string (excluded), plural, other {{plurals with intervals as string (excluded), plural, other {[0] ゼロ ルール|]2,5[ 2 ～ 5 (除外)|およびキャッチオール ルール}}}}",
+    "plurals with intervals as string": "{plurals with intervals as string, plural, other {{plurals with intervals as string, plural, other {[0] ゼロ ルール|[2,5] 2 から 5 (含む)|およびキャッチオール ルール}}}}",
+    "plurals with intervals in _other_ missing _one_": "{plurals with intervals in _other_ missing _one_, plural, other {{plurals with intervals in _other_ missing _one_, plural, other {[0] ゼロ ルール|[2,5] 2 から 5 (含む)|およびキャッチオール ルール}}}}",
+    "plurals with intervals in string (no object)": "[0] ゼロ ルール|[2,5] 2 から 5 (含む)|およびキャッチオール ルール",
+    "There is one monkey in the tree": "{There is one monkey in the tree, plural, other {{There is one monkey in the tree, plural, other {木には%d匹のサルがいます}}}}",
+    "There is one monkey in the %s": "{There is one monkey in the %s, plural, other {{There is one monkey in the %s, plural, other {%sには%d匹のサルがいます}}}}",
+    "tree": "木",
+    "There is one monkey in the %%s": "{There is one monkey in the %%s, plural, other {{There is one monkey in the %%s, plural, other {%% s には%d匹のサルがいます}}}}",
+    "nested": {
+        "path": {
+            "sub": "ネストされた.path.sub"
+        },
+        "deep": {
+            "plural": "{nested::deep::plural, plural, other {{nested::deep::plural, plural, other {複数形}}}}"
+        }
+    },
+    "cats": {
+        "n": "{cats::n, plural, other {{cats::n, plural, other {%s猫}}}}"
+    },
+    "cat": "{cat, plural, other {{cat, plural, other {%s猫}}}}",
+    "%s star": "{%s star, plural, other {{%s star, plural, other {%s個の星}}}}",
+    "%d star": "{%d star, plural, other {{%d star, plural, other {%d個の星}}}}",
+    "%f star": "{%f star, plural, other {{%f star, plural, other {%f個の星}}}}",
+    "%s cat": "{%s cat, plural, other {{%s cat, plural, other {%s猫}}}}",
+    "Howdy": "こんにちは",
+    "Hi": "こんにちは",
+    "Hello %s, how are you today? How was your %s.": "こんにちは%s 、今日はどうですか? %sはどうでしたか？",
+    "weekend": "週末",
+    "Hello %s, how are you today?": "こんにちは%s 、今日はどうですか?",
+    "Hello": "こんにちは"
+}
