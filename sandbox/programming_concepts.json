@@ -1,0 +1,45 @@
+{
+    "plurals": {
+        "notifications": {
+            "one": "One notification",
+            "other": "{num_notifications} notifications"
+        },
+        "tasks_completed": {
+            "one": "One task completed",
+            "other": "{num_tasks} tasks completed"
+        },
+        "files_uploaded": {
+            "one": "One file uploaded",
+            "other": "{num_files} files uploaded"
+        },
+        "items_selected": {
+            "one": "One item selected",
+            "other": "{num_items} items selected"
+        },
+        "users_online": {
+            "one": "One user online",
+            "other": "{num_users} users online"
+        }
+    },
+    "documentation": "Documentation refers to the written materials that accompany a software application, including user manuals, technical specifications, and code comments.",
+    "testing": "Testing is the process of evaluating a software application to ensure that it meets specified requirements and behaves as expected.",
+    "debugging": "Debugging is the process of finding and fixing errors or bugs in a computer program.",
+    "algorithms": "Algorithms are step-by-step procedures for solving problems or performing tasks. They define the logic to be followed by a computer program.",
+    "data_structures": "Data structures are collections of data organized in a specific way to perform operations efficiently. Examples include arrays, linked lists, and trees.",
+    "pointers": "Pointers are variables that store the memory address of another variable. They are commonly used in low-level programming languages like C and C++.",
+    "recursion": "Recursion is a programming technique where a function calls itself in order to solve a problem.",
+    "abstraction": "Abstraction is the process of hiding the implementation details of a system and exposing only the essential features to the users.",
+    "encapsulation": "Encapsulation is the bundling of data and methods that operate on the data into a single unit, known as a class.",
+    "polymorphism": "Polymorphism is the ability of objects to take on different forms or behaviors based on their data type or class.",
+    "inheritance": "Inheritance is a mechanism in object-oriented programming that allows a class to inherit properties and methods from another class.",
+    "classes": "Classes are blueprints for creating objects in object-oriented programming. They define the properties and methods that objects of the class will have.",
+    "objects": "Objects are instances of classes in object-oriented programming. They encapsulate data and behavior related to a specific entity.",
+    "conditionals": "Conditionals are used to make decisions in a program. They execute different blocks of code based on whether a certain condition is true or false.",
+    "loops": "Loops are used to execute a block of code repeatedly until a certain condition is met. Common types of loops include for loops and while loops.",
+    "arrays": "Arrays are data structures that store a collection of elements of the same type. Elements in an array are accessed by their index.",
+    "functions": "Functions are blocks of code that perform a specific task. They can accept input parameters and return output values.",
+    "control_flow": "Control flow refers to the order in which statements are executed in a program. It includes decision-making structures like if-else statements and looping structures like for loops and while loops.",
+    "variables": "Variables are used to store data in a program. They have a name and a value, which can be changed during program execution.",
+    "intro_description": "Learn fundamental programming concepts with this app.",
+    "welcome_message": "Welcome to the Programming Concepts App!"
+}
