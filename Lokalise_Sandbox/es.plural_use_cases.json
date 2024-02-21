@@ -2,9 +2,7 @@
     "Howdy": "Hola",
     "Hi": "Hola",
     "Hello %s, how are you today? How was your %s.": "Hola %s , ¿cómo estás hoy? Como estuvo el %s .",
-    "void": "",
-    "weekend": "",
     "Hello %s, how are you today?": "Hola %s , ¿cómo estás hoy?",
-    "Hello": "",
+    "[VOID]": "",
     "Empty": "VACÍO"
 }

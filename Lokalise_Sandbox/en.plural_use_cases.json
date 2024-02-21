@@ -1,10 +1,8 @@
 {
-    "Empty": "VOID",
-    "Hello": "[VOID]",
-    "Hello %s, how are you today?": "Hello %s, how are you today?",
-    "weekend": "[VOID]",
-    "void":"[VOID]",
-    "Hello %s, how are you today? How was your %s.": "Hello %s, how are you today? How was your %s.",
+    "Howdy": "Howdy",
     "Hi": "Hi",
-    "Howdy": "Howdy"
-    }
+    "Hello %s, how are you today? How was your %s.": "Hello %s, how are you today? How was your %s.",
+    "Hello %s, how are you today?": "Hello %s, how are you today?",
+    "[VOID]": "",
+    "Empty": "VOID"
+}
