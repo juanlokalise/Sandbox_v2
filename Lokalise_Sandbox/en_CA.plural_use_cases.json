@@ -2,9 +2,7 @@
     "Howdy": "Howdy",
     "Hi": "Hi",
     "Hello %s, how are you today? How was your %s.": "Hello %s, how are you today? How was your %s.",
-    "void": "",
-    "weekend": "",
     "Hello %s, how are you today?": "Hello %s, how are you today?",
-    "Hello": "",
+    "[VOID]": "",
     "Empty": "VOID"
 }

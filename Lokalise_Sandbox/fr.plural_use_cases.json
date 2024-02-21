@@ -2,9 +2,7 @@
     "Howdy": "Salut",
     "Hi": "Salut",
     "Hello %s, how are you today? How was your %s.": "Bonjour %s , comment vas-tu aujourd'hui ? Comment était la %s .",
-    "void": "",
-    "weekend": "",
     "Hello %s, how are you today?": "Bonjour %s , comment vas-tu aujourd'hui ?",
-    "Hello": "",
+    "[VOID]": "",
     "Empty": "VIDE"
 }
