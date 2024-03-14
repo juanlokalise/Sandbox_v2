@@ -1,8 +1,11 @@
 {
     "Howdy": "Howdy",
     "Hi": "Hi",
-    "Hello %s, how are you today? How was your %s.": "Hello %s, how are you today? How was your %s.",
-    "Hello %s, how are you today?": "Hello %s, how are you today?",
+    "Hello %s, how are you today? How was your %s.": "Hello %s, how are you today? How was your %s?",
+    "lokalise_placeholders": {
+        "universal_placeholders": "You can use the following universal placeholders on Lokalise to represent various data types:\n\n%s, %1$s, %s – string.\n\n%d, %1$d, %d – integer.\n\n%f, %.2f, %1$.2f, %.2f – float.\n\nThe name postfix :name is only used in placeholder formats that actually support named placeholders. This postfix will be ignored for other formats.",
+        "special_placeholder": "Lokalise also supports certain \"special\" placeholders:\n\n%  – will be automatically exported as %%  for printf and iOS placeholder formats if the string contains at least one placeholder (will be exported as %  otherwise).\n\n[VOID]  – this placeholder simply means \"translation is absent\" and it will be exported as an empty string. However, it will be counted as \"translated\" on Lokalise. This placeholder can come in handy when you do not have a proper translation yet but you want to pretend that it is actually present.\n\nPlease note that translations with the [VOID] value won't be saved to the translation memory.\n\n[TRUE], [FALSE] – these placeholders will be exported as platform-specific boolean values.\n\nPlease note that [VOID], [TRUE], and [FALSE] placeholders should be the only text in a given translation. For example, This sentence is [FALSE] is incorrect usage of the [FALSE] placeholder and will be simply exported as a plain text."
+    },
     "[VOID]": "",
-    "Empty": "VOID"
+    "Juankey": "The quick brown fox jumped over the lazy dog. [VOID]"
 }

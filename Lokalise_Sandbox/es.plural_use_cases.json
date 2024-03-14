@@ -1,8 +1,11 @@
 {
-    "Howdy": "Hola",
-    "Hi": "Hola",
-    "Hello %s, how are you today? How was your %s.": "Hola %s , ¿cómo estás hoy? Como estuvo el %s .",
-    "Hello %s, how are you today?": "Hola %s , ¿cómo estás hoy?",
+    "Howdy": "",
+    "Hi": "",
+    "Hello %s, how are you today? How was your %s.": "",
+    "lokalise_placeholders": {
+        "universal_placeholders": "",
+        "special_placeholder": ""
+    },
     "[VOID]": "",
-    "Empty": "VACÍO"
+    "Juankey": ""
 }

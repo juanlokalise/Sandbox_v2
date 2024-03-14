@@ -2,7 +2,10 @@
     "Howdy": "Salut",
     "Hi": "Salut",
     "Hello %s, how are you today? How was your %s.": "Bonjour %s , comment vas-tu aujourd'hui ? Comment était la %s .",
-    "Hello %s, how are you today?": "Bonjour %s , comment vas-tu aujourd'hui ?",
+    "lokalise_placeholders": {
+        "universal_placeholders": "Vous pouvez utiliser les espaces réservés universels suivants sur Lokalise pour représenter différents types de données : \n\n %s , %1$s , %s – chaîne. \n\n %d , %1$d , %d – nombre entier. \n\n %f , %.2f , %1$.2f , %.2f – flottant. \n\n Le nom postfix :name n'est utilisé que dans les formats d'espace réservé qui prennent réellement en charge les espaces réservés nommés. Ce suffixe sera ignoré pour les autres formats.\n",
+        "special_placeholder": "Lokalise prend également en charge certains espaces réservés « spéciaux » : \n\n % – sera automatiquement exporté en %% pour les formats d'espace réservé printf et iOS si la chaîne contient au moins un espace réservé (sera exporté en % sinon). \n\n [VOID] – cet espace réservé signifie simplement « la traduction est absente » et il sera exporté sous forme de chaîne vide. Il sera cependant compté comme « traduit » sur Lokalise. Cet espace réservé peut s'avérer utile lorsque vous n'avez pas encore de traduction appropriée mais que vous souhaitez prétendre qu'elle est réellement présente. \n\n Veuillez noter que les traductions avec la valeur [VOID] ne seront pas enregistrées dans la mémoire de traduction. \n\n [TRUE] , [FALSE] – ces espaces réservés seront exportés sous forme de valeurs booléennes spécifiques à la plate-forme. \n\n Veuillez noter que les espaces réservés [VOID] , [TRUE] et [FALSE] doivent être le seul texte dans une traduction donnée. Par exemple, cette phrase est [FALSE] est une utilisation incorrecte de l'espace réservé [FALSE] et sera simplement exportée sous forme de texte brut."
+    },
     "[VOID]": "",
-    "Empty": "VIDE"
+    "Juankey": "Le renard brun rapide a sauté par-dessus le chien paresseux."
 }
