@@ -2,7 +2,10 @@
     "Howdy": "你好",
     "Hi": "你好",
     "Hello %s, how are you today? How was your %s.": "你好%s ，今天怎么样？你的%s样 。",
-    "Hello %s, how are you today?": "你好%s ，今天怎么样？",
+    "lokalise_placeholders": {
+        "universal_placeholders": "您可以在 Lokalise 上使用以下通用占位符来表示各种数据类型： \n\n %s 、 %1$s 、 %s – 字符串。 \n\n %d 、 %1$d 、 %d – 整数。 \n\n %f 、 %.2f 、 %1$.2f 、 %.2f – 浮点数。 \n\n名称后缀 :name 仅用于实际支持命名占位符的占位符格式。对于其他格式，此后缀将被忽略。\n",
+        "special_placeholder": "Lokalise 还支持某些“特殊”占位符： \n\n % – 如果字符串至少包含一个占位符，则 printf 和 iOS 占位符格式将自动导出为%% （否则将导出为 %）。 \n\n [VOID] – 该占位符仅表示“翻译不存在”，它将导出为空字符串。但是，它在 Lokalise 上将被视为“已翻译”。当您还没有正确的翻译但您想假装它确实存在时，此占位符会派上用场。 \n\n请注意，带有[VOID]值的翻译不会保存到翻译记忆库中。 \n\n [TRUE] 、 [FALSE] – 这些占位符将作为特定于平台的布尔值导出。 \n\n请注意， [VOID] 、 [TRUE]和[FALSE]占位符应该是给定翻译中的唯一文本。例如，这句话是[FALSE]是[FALSE]占位符的错误用法，将仅导出为纯文本。"
+    },
     "[VOID]": "",
-    "Empty": "空白"
+    "Juankey": "快速的棕色狐狸跳过了懒惰的狗。"
 }
